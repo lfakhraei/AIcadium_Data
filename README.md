@@ -12,7 +12,7 @@
  ExitRate/Bouncerate are negatively related, higher rate less likely they purchase
  
  Three supporting docs uploaded
- 1. data wxploration : its alway valuable to know data well before building any model
+ 1. data wxploration : its alway valuable to know data  before building any model
  2. Modeling: feeding data and predicting class Purchased/Not Purchased
  3. Underlying trees used in the model 
  
