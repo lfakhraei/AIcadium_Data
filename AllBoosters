@@ -3,1320 +3,1320 @@ booster[0]:
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
 			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
-				15:leaf=-0.193650797
-				16:leaf=-0.123618089
+				15:leaf=-0.213015869
+				16:leaf=-0.135979906
 			8:[ProductRelated<3] yes=17,no=18,missing=17
-				17:leaf=0.041860465
-				18:leaf=-0.144024953
+				17:leaf=0.0460465103
+				18:leaf=-0.158427432
 		4:[ProductRelated_Duration<1158.5625] yes=9,no=10,missing=9
 			9:[TrafficType<12] yes=19,no=20,missing=19
-				19:leaf=-0.0746438727
-				20:leaf=-0.19370079
-			10:[ProductRelated<33] yes=21,no=22,missing=21
-				21:leaf=-0.042364534
-				22:leaf=0.044678811
+				19:leaf=-0.0821082592
+				20:leaf=-0.213070869
+			10:[#pages visited<79] yes=21,no=22,missing=21
+				21:leaf=0.00250000018
+				22:leaf=0.0738745332
 	2:[BounceRates<0.000125246501] yes=5,no=6,missing=5
 		5:[Administrative<5] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<3795.3772] yes=23,no=24,missing=23
-				23:leaf=0.186566308
-				24:leaf=0.0666666701
+			11:[#how long visited<3871.81494] yes=23,no=24,missing=23
+				23:leaf=0.205469295
+				24:leaf=0.0549999997
 			12:[PageValues<19.8701439] yes=25,no=26,missing=25
-				25:leaf=0.102552198
-				26:leaf=0.176079735
+				25:leaf=0.112807415
+				26:leaf=0.193687707
 		6:[Month_Nov<1] yes=13,no=14,missing=13
 			13:[ProductRelated_Duration<1327.75598] yes=27,no=28,missing=27
-				27:leaf=0.138611928
-				28:leaf=0.0654991269
+				27:leaf=0.152473122
+				28:leaf=0.0720490366
 			14:[ExitRates<0.0204819776] yes=29,no=30,missing=29
-				29:leaf=0.173741803
-				30:leaf=0.135443047
+				29:leaf=0.191115975
+				30:leaf=0.148987353
 booster[1]:
 0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
-			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
-				15:leaf=-0.176008269
-				16:leaf=-0.111938134
+			7:[VisitorType_New_Visitor<1] yes=15,no=16,missing=15
+				15:leaf=-0.192206353
+				16:leaf=-0.118972979
 			8:[ProductRelated_Duration<31.75] yes=17,no=18,missing=17
-				17:leaf=0.0327169411
-				18:leaf=-0.13104789
+				17:leaf=0.0361193232
+				18:leaf=-0.142749622
 		4:[ProductRelated_Duration<1158.5625] yes=9,no=10,missing=9
 			9:[Informational_Duration<127.75] yes=19,no=20,missing=19
-				19:leaf=-0.0829314813
-				20:leaf=0.0662963688
+				19:leaf=-0.0903372765
+				20:leaf=0.0737606362
 			10:[ExitRates<0.0390121937] yes=21,no=22,missing=21
-				21:leaf=0.036149215
-				22:leaf=-0.0841092989
+				21:leaf=0.0395370387
+				22:leaf=-0.0937721059
 	2:[PageValues<10.3394299] yes=5,no=6,missing=5
 		5:[Month_May<1] yes=11,no=12,missing=11
 			11:[ExitRates<0.0434703603] yes=23,no=24,missing=23
-				23:leaf=0.119194686
-				24:leaf=0.00725827832
-			12:[Administrative<5] yes=25,no=26,missing=25
-				25:leaf=0.0966286063
-				26:leaf=-0.038304165
+				23:leaf=0.129785568
+				24:leaf=0.00689828303
+			12:[#pages visited<54] yes=25,no=26,missing=25
+				25:leaf=0.103736028
+				26:leaf=-0.0475538857
 		6:[BounceRates<0.000370770984] yes=13,no=14,missing=13
 			13:[Administrative<5] yes=27,no=28,missing=27
-				27:leaf=0.171705946
-				28:leaf=0.148229286
+				27:leaf=0.187161073
+				28:leaf=0.161576897
 			14:[Administrative<14] yes=29,no=30,missing=29
-				29:leaf=0.131131738
-				30:leaf=0.0178968944
+				29:leaf=0.142965555
+				30:leaf=0.018242592
 booster[2]:
 0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Month_May<1] yes=7,no=8,missing=7
 			7:[Month_Mar<1] yes=15,no=16,missing=15
-				15:leaf=-0.0945249572
-				16:leaf=-0.172173321
-			8:leaf=-0.1718079
+				15:leaf=-0.101480097
+				16:leaf=-0.1869286
+			8:leaf=-0.186526984
 		4:[ProductRelated_Duration<1158.5625] yes=9,no=10,missing=9
 			9:[TrafficType<12] yes=17,no=18,missing=17
-				17:leaf=-0.059974581
-				18:leaf=-0.170388371
-			10:[ExitRates<0.0404147655] yes=19,no=20,missing=19
-				19:leaf=0.031915646
-				20:leaf=-0.086072728
+				17:leaf=-0.064489767
+				18:leaf=-0.185288906
+			10:[ProductRelated<33] yes=19,no=20,missing=19
+				19:leaf=-0.047706861
+				20:leaf=0.0411096141
 	2:[BounceRates<0.000125246501] yes=5,no=6,missing=5
-		5:[Administrative<5] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<3795.3772] yes=21,no=22,missing=21
-				21:leaf=0.156611428
-				22:leaf=0.0488130264
-			12:[PageValues<19.8701439] yes=23,no=24,missing=23
-				23:leaf=0.0816857442
-				24:leaf=0.147941113
+		5:[#pages visited<36] yes=11,no=12,missing=11
+			11:leaf=0.171014115
+			12:[PageValues<10.0144329] yes=23,no=24,missing=23
+				23:leaf=0.0829125345
+				24:leaf=0.149569839
 		6:[Month_Nov<1] yes=13,no=14,missing=13
 			13:[ProductRelated_Duration<1327.75598] yes=25,no=26,missing=25
-				25:leaf=0.115015499
-				26:leaf=0.0491166972
+				25:leaf=0.123834357
+				26:leaf=0.0530469678
 			14:[ExitRates<0.0204819776] yes=27,no=28,missing=27
-				27:leaf=0.147574082
-				28:leaf=0.111897863
+				27:leaf=0.15992704
+				28:leaf=0.120821573
 booster[3]:
 0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
-			7:[VisitorType_Returning_Visitor<1] yes=15,no=16,missing=15
-				15:leaf=-0.0951362178
-				16:leaf=-0.153541654
+			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
+				15:leaf=-0.165712625
+				16:leaf=-0.0923836976
 			8:[Month_May<1] yes=17,no=18,missing=17
-				17:leaf=-0.0778509974
-				18:leaf=-0.163573325
+				17:leaf=-0.0826187581
+				18:leaf=-0.177162766
 		4:[ProductRelated_Duration<1179.57141] yes=9,no=10,missing=9
 			9:[BounceRates<0.00851449184] yes=19,no=20,missing=19
-				19:leaf=-0.0375034474
-				20:leaf=-0.0991139188
-			10:[ProductRelated<75] yes=21,no=22,missing=21
-				21:leaf=-0.000253104488
-				22:leaf=0.0543960445
-	2:[PageValues<8.88715935] yes=5,no=6,missing=5
-		5:[Month_May<1] yes=11,no=12,missing=11
-			11:[Month_Nov<1] yes=23,no=24,missing=23
-				23:leaf=0.0752781555
-				24:leaf=0.115023851
-			12:[Informational_Duration<40] yes=25,no=26,missing=25
-				25:leaf=0.0406426452
-				26:leaf=-0.117324308
-		6:[BounceRates<0.000370770984] yes=13,no=14,missing=13
-			13:[PageValues<23.6640873] yes=27,no=28,missing=27
-				27:leaf=0.127375737
-				28:leaf=0.148894072
-			14:[Administrative<14] yes=29,no=30,missing=29
-				29:leaf=0.10993997
-				30:leaf=-0.00921850465
-booster[4]:
-0:[PageValues<0.0525420457] yes=1,no=2,missing=1
-	1:[Month_Nov<1] yes=3,no=4,missing=3
-		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
-			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
-				15:leaf=-0.144626409
-				16:leaf=-0.0797905549
-			8:[ProductRelated<3] yes=17,no=18,missing=17
-				17:leaf=0.0569095127
-				18:leaf=-0.101162188
-		4:[ProductRelated_Duration<1158.5625] yes=9,no=10,missing=9
-			9:[Administrative<1] yes=19,no=20,missing=19
-				19:leaf=-0.080089651
-				20:leaf=-0.0219172109
-			10:[ProductRelated<33] yes=21,no=22,missing=21
-				21:leaf=-0.0394067094
-				22:leaf=0.0317411758
+				19:leaf=-0.0392161347
+				20:leaf=-0.106952481
+			10:[ExitRates<0.0404147655] yes=21,no=22,missing=21
+				21:leaf=0.0317856744
+				22:leaf=-0.0924034938
 	2:[PageValues<19.1976471] yes=5,no=6,missing=5
 		5:[Administrative<5] yes=11,no=12,missing=11
 			11:[BounceRates<0.00720779225] yes=23,no=24,missing=23
-				23:leaf=0.117612623
-				24:leaf=0.0652416945
+				23:leaf=0.135499105
+				24:leaf=0.0783694461
 			12:[SpecialDay<0.300000012] yes=25,no=26,missing=25
-				25:leaf=0.0693263113
-				26:leaf=-0.190511391
+				25:leaf=0.0807017684
+				26:leaf=-0.21224153
 		6:[BounceRates<0.0014179491] yes=13,no=14,missing=13
-			13:leaf=0.137986168
+			13:leaf=0.158346593
 			14:[Administrative_Duration<240.887817] yes=29,no=30,missing=29
-				29:leaf=0.114954017
-				30:leaf=0.0495883524
+				29:leaf=0.13267687
+				30:leaf=0.0604122877
+booster[4]:
+0:[PageValues<0.70835495] yes=1,no=2,missing=1
+	1:[Month_Nov<1] yes=3,no=4,missing=3
+		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
+			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
+				15:leaf=-0.155694589
+				16:leaf=-0.0772010759
+			8:[#how long visited<160.75] yes=17,no=18,missing=17
+				17:leaf=0.0127254436
+				18:leaf=-0.111628279
+		4:[#how long visited<1872.26306] yes=9,no=10,missing=9
+			9:[TrafficType<12] yes=19,no=20,missing=19
+				19:leaf=-0.0426271223
+				20:leaf=-0.172215462
+			10:[#pages visited<38] yes=21,no=22,missing=21
+				21:leaf=-0.0591337569
+				22:leaf=0.0446292721
+	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
+		5:[Administrative<5] yes=11,no=12,missing=11
+			11:[#how long visited<3871.81494] yes=23,no=24,missing=23
+				23:leaf=0.148362577
+				24:leaf=0.0201165844
+			12:[PageValues<10.1454964] yes=25,no=26,missing=25
+				25:leaf=0.0309808422
+				26:leaf=0.124570571
+		6:[Month_Nov<1] yes=13,no=14,missing=13
+			13:[PageValues<8.74039841] yes=27,no=28,missing=27
+				27:leaf=0.0237633679
+				28:leaf=0.0925070047
+			14:[Region<9] yes=29,no=30,missing=29
+				29:leaf=0.12699081
+				30:leaf=0.0133905075
 booster[5]:
+0:[PageValues<0.0525420457] yes=1,no=2,missing=1
+	1:[Month_Nov<1] yes=3,no=4,missing=3
+		3:[Month_Sep<1] yes=7,no=8,missing=7
+			7:[Month_Jul<1] yes=15,no=16,missing=15
+				15:leaf=-0.129826829
+				16:leaf=-0.0255048331
+			8:[ProductRelated_Duration<62.0999985] yes=17,no=18,missing=17
+				17:leaf=0.139486134
+				18:leaf=-0.0662021935
+		4:[ProductRelated_Duration<1158.5625] yes=9,no=10,missing=9
+			9:[Administrative<1] yes=19,no=20,missing=19
+				19:leaf=-0.0804800093
+				20:leaf=-0.0167299919
+			10:[TrafficType<2] yes=21,no=22,missing=21
+				21:leaf=-0.0510789827
+				22:leaf=0.0306679681
+	2:[PageValues<19.6686554] yes=5,no=6,missing=5
+		5:[Month_Nov<1] yes=11,no=12,missing=11
+			11:[#pages visited<42] yes=23,no=24,missing=23
+				23:leaf=0.107011899
+				24:leaf=0.0257398747
+			12:[ExitRates<0.0190998334] yes=25,no=26,missing=25
+				25:leaf=0.128068417
+				26:leaf=0.0908987224
+		6:[BounceRates<0.0014179491] yes=13,no=14,missing=13
+			13:leaf=0.140934363
+			14:[Administrative_Duration<240.887817] yes=29,no=30,missing=29
+				29:leaf=0.114490002
+				30:leaf=0.0362401567
+booster[6]:
 0:[PageValues<0.70835495] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Month_May<1] yes=7,no=8,missing=7
 			7:[Month_Mar<1] yes=15,no=16,missing=15
-				15:leaf=-0.0683446974
-				16:leaf=-0.148012862
-			8:leaf=-0.14576745
-		4:[ProductRelated_Duration<1179.57141] yes=9,no=10,missing=9
-			9:[TrafficType<12] yes=17,no=18,missing=17
-				17:leaf=-0.0432280526
-				18:leaf=-0.149871469
-			10:[TrafficType<2] yes=19,no=20,missing=19
-				19:leaf=-0.0474773832
-				20:leaf=0.029077122
+				15:leaf=-0.0620844811
+				16:leaf=-0.153669074
+			8:leaf=-0.151398197
+		4:[#pages visited<32] yes=9,no=10,missing=9
+			9:[ExitRates<0.0764285773] yes=17,no=18,missing=17
+				17:leaf=-0.0345135853
+				18:leaf=-0.111687459
+			10:[#pages visited<79] yes=19,no=20,missing=19
+				19:leaf=-0.0036753309
+				20:leaf=0.0479309112
 	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
 		5:[Administrative<5] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<3251.01074] yes=21,no=22,missing=21
-				21:leaf=0.130998477
-				22:leaf=0.0563342348
+			11:[#how long visited<3594.2583] yes=21,no=22,missing=21
+				21:leaf=0.133639559
+				22:leaf=0.0265681278
 			12:[PageValues<10.1454964] yes=23,no=24,missing=23
-				23:leaf=0.0282066651
-				24:leaf=0.109156132
+				23:leaf=0.0192477666
+				24:leaf=0.107649736
 		6:[Month_Nov<1] yes=13,no=14,missing=13
-			13:[ProductRelated_Duration<1327.75598] yes=25,no=26,missing=25
-				25:leaf=0.0904869512
-				26:leaf=0.0309001654
+			13:[ProductRelated_Duration<1185.0769] yes=25,no=26,missing=25
+				25:leaf=0.0936095864
+				26:leaf=0.0309858304
 			14:[ExitRates<0.0204819776] yes=27,no=28,missing=27
-				27:leaf=0.123550609
-				28:leaf=0.0886397585
-booster[6]:
-0:[PageValues<0.70835495] yes=1,no=2,missing=1
-	1:[Month_Nov<1] yes=3,no=4,missing=3
-		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
-			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
-				15:leaf=-0.132198632
-				16:leaf=-0.0591802187
-			8:[Month_May<1] yes=17,no=18,missing=17
-				17:leaf=-0.0559778623
-				18:leaf=-0.142332196
-		4:[ProductRelated_Duration<1881.22046] yes=9,no=10,missing=9
-			9:[TrafficType<12] yes=19,no=20,missing=19
-				19:leaf=-0.0316683911
-				20:leaf=-0.150423154
-			10:[ProductRelated<56] yes=21,no=22,missing=21
-				21:leaf=-0.0193730947
-				22:leaf=0.0430433974
-	2:[PageValues<19.6686554] yes=5,no=6,missing=5
-		5:[Month_Nov<1] yes=11,no=12,missing=11
-			11:[ProductRelated<39] yes=23,no=24,missing=23
-				23:leaf=0.0897235796
-				24:leaf=0.022669917
-			12:[BounceRates<0.0120003391] yes=25,no=26,missing=25
-				25:leaf=0.107255198
-				26:leaf=0.0596898682
-		6:[BounceRates<0.0014179491] yes=13,no=14,missing=13
-			13:leaf=0.125077263
-			14:[Administrative_Duration<240.887817] yes=29,no=30,missing=29
-				29:leaf=0.101471677
-				30:leaf=0.0304604601
+				27:leaf=0.12368647
+				28:leaf=0.0850264952
 booster[7]:
 0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
-			7:[VisitorType_Returning_Visitor<1] yes=15,no=16,missing=15
-				15:leaf=-0.0633892864
-				16:leaf=-0.127124056
-			8:[ProductRelated_Duration<61.0499992] yes=17,no=18,missing=17
-				17:leaf=0.0379363075
-				18:leaf=-0.0843170658
-		4:[ProductRelated_Duration<1158.5625] yes=9,no=10,missing=9
-			9:[Informational_Duration<127.75] yes=19,no=20,missing=19
-				19:leaf=-0.0498276167
-				20:leaf=0.0833481476
-			10:[ExitRates<0.00433904119] yes=21,no=22,missing=21
-				21:leaf=-0.122468054
-				22:leaf=0.0195499416
-	2:[BounceRates<0.000125246501] yes=5,no=6,missing=5
+			7:[VisitorType_New_Visitor<1] yes=15,no=16,missing=15
+				15:leaf=-0.13730751
+				16:leaf=-0.0547310039
+			8:[Month_May<1] yes=17,no=18,missing=17
+				17:leaf=-0.0495420471
+				18:leaf=-0.147987992
+		4:[#pages visited<32] yes=9,no=10,missing=9
+			9:[Administrative_Duration<7.5] yes=19,no=20,missing=19
+				19:leaf=-0.0666309521
+				20:leaf=-0.00534555409
+			10:[ExitRates<0.0385272205] yes=21,no=22,missing=21
+				21:leaf=0.0227352995
+				22:leaf=-0.0974909589
+	2:[PageValues<19.6686554] yes=5,no=6,missing=5
 		5:[Administrative<5] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<3251.01074] yes=23,no=24,missing=23
-				23:leaf=0.119543388
-				24:leaf=0.0394121297
-			12:[PageValues<19.8701439] yes=25,no=26,missing=25
-				25:leaf=0.0473459065
-				26:leaf=0.107471086
-		6:[Month_Nov<1] yes=13,no=14,missing=13
-			13:[ProductRelated_Duration<1185.0769] yes=27,no=28,missing=27
-				27:leaf=0.0826316848
-				28:leaf=0.0249903686
-			14:[ExitRates<0.0204819776] yes=29,no=30,missing=29
-				29:leaf=0.110741675
-				30:leaf=0.0743347332
+			11:[ExitRates<0.0406232476] yes=23,no=24,missing=23
+				23:leaf=0.0967330337
+				24:leaf=0.00439238921
+			12:[Month_Nov<1] yes=25,no=26,missing=25
+				25:leaf=0.0125690764
+				26:leaf=0.09142185
+		6:[BounceRates<0.0014179491] yes=13,no=14,missing=13
+			13:leaf=0.127814174
+			14:[Administrative_Duration<240.887817] yes=29,no=30,missing=29
+				29:leaf=0.10032703
+				30:leaf=0.0252170581
 booster[8]:
 0:[PageValues<0.99157536] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Month_May<1] yes=7,no=8,missing=7
 			7:[Month_Mar<1] yes=15,no=16,missing=15
-				15:leaf=-0.0489272699
-				16:leaf=-0.134388417
-			8:leaf=-0.131344706
-		4:[ExitRates<0.0764285773] yes=9,no=10,missing=9
-			9:[ProductRelated_Duration<22.9166679] yes=17,no=18,missing=17
-				17:leaf=0.169572368
-				18:leaf=-0.00934946351
-			10:[Administrative<1] yes=19,no=20,missing=19
-				19:leaf=-0.125815898
-				20:leaf=0.081791915
-	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
-		5:[Administrative<5] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<3251.01074] yes=21,no=22,missing=21
-				21:leaf=0.114588223
-				22:leaf=0.0411068238
-			12:[PageValues<9.85691452] yes=23,no=24,missing=23
-				23:leaf=0.0108628972
-				24:leaf=0.0904292539
-		6:[Month_Nov<1] yes=13,no=14,missing=13
-			13:[PageValues<8.74039841] yes=25,no=26,missing=25
-				25:leaf=0.00919987913
-				26:leaf=0.0637639314
-			14:[ExitRates<0.0204819776] yes=27,no=28,missing=27
-				27:leaf=0.104822151
-				28:leaf=0.070674561
+				15:leaf=-0.0490877926
+				16:leaf=-0.144274846
+			8:leaf=-0.14116706
+		4:[#how long visited<1872.26306] yes=9,no=10,missing=9
+			9:[TrafficType<12] yes=17,no=18,missing=17
+				17:leaf=-0.027045086
+				18:leaf=-0.154177949
+			10:[OperatingSystems<2] yes=19,no=20,missing=19
+				19:leaf=0.0739115402
+				20:leaf=0.0117500471
+	2:[PageValues<27.1605129] yes=5,no=6,missing=5
+		5:[Administrative<7] yes=11,no=12,missing=11
+			11:[ExitRates<0.0141629055] yes=21,no=22,missing=21
+				21:leaf=0.107501194
+				22:leaf=0.0672189072
+			12:[Month_May<1] yes=23,no=24,missing=23
+				23:leaf=0.0577966534
+				24:leaf=-0.0319188684
+		6:[BounceRates<0.000840395514] yes=13,no=14,missing=13
+			13:leaf=0.125044912
+			14:[ExitRates<0.0335799307] yes=27,no=28,missing=27
+				27:leaf=0.102882229
+				28:leaf=0.0283496454
 booster[9]:
-0:[PageValues<0.0525420457] yes=1,no=2,missing=1
+0:[PageValues<0.99157536] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
 			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
-				15:leaf=-0.119062066
-				16:leaf=-0.0459733605
-			8:[Month_Jul<1] yes=17,no=18,missing=17
-				17:leaf=-0.0714492798
-				18:leaf=0.0685183033
-		4:[ProductRelated_Duration<1881.22046] yes=9,no=10,missing=9
-			9:[TrafficType<12] yes=19,no=20,missing=19
-				19:leaf=-0.0243412815
-				20:leaf=-0.140015647
-			10:[ExitRates<0.00951232016] yes=21,no=22,missing=21
-				21:leaf=-0.0604754798
-				22:leaf=0.0323238671
-	2:[PageValues<27.1605129] yes=5,no=6,missing=5
-		5:[Administrative<7] yes=11,no=12,missing=11
-			11:[ExitRates<0.0141629055] yes=23,no=24,missing=23
-				23:leaf=0.0967097878
-				24:leaf=0.0588456504
-			12:[Month_Nov<1] yes=25,no=26,missing=25
-				25:leaf=0.00494569866
-				26:leaf=0.0734594092
-		6:[Administrative<2] yes=13,no=14,missing=13
-			13:leaf=0.118373595
-			14:[ExitRates<0.0335799307] yes=29,no=30,missing=29
-				29:leaf=0.0961650237
-				30:leaf=-0.0595178194
-booster[10]:
-0:[PageValues<0.99157536] yes=1,no=2,missing=1
-	1:[Month_Nov<1] yes=3,no=4,missing=3
-		3:[Month_May<1] yes=7,no=8,missing=7
-			7:[Month_Mar<1] yes=15,no=16,missing=15
-				15:leaf=-0.039062839
-				16:leaf=-0.127505213
-			8:leaf=-0.12503767
+				15:leaf=-0.127573386
+				16:leaf=-0.0339219086
+			8:[Month_May<1] yes=17,no=18,missing=17
+				17:leaf=-0.0376172997
+				18:leaf=-0.139121041
 		4:[ExitRates<0.0764285773] yes=9,no=10,missing=9
-			9:[ProductRelated_Duration<22.9166679] yes=17,no=18,missing=17
-				17:leaf=0.152209103
-				18:leaf=-0.00761987735
-			10:[Administrative<1] yes=19,no=20,missing=19
-				19:leaf=-0.115874782
-				20:leaf=0.0763186067
+			9:[ProductRelated_Duration<22.9166679] yes=19,no=20,missing=19
+				19:leaf=0.188267469
+				20:leaf=-0.00918288901
+			10:[Administrative<1] yes=21,no=22,missing=21
+				21:leaf=-0.127590463
+				22:leaf=0.103715762
 	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
-		5:[Administrative<5] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<3251.01074] yes=21,no=22,missing=21
-				21:leaf=0.106285825
-				22:leaf=0.0307872631
-			12:[PageValues<9.85691452] yes=23,no=24,missing=23
-				23:leaf=0.00461268565
-				24:leaf=0.0810697451
+		5:[#pages visited<36] yes=11,no=12,missing=11
+			11:leaf=0.118584752
+			12:[ExitRates<0.00546055194] yes=25,no=26,missing=25
+				25:leaf=0.119622491
+				26:leaf=0.0521703847
 		6:[Month_Nov<1] yes=13,no=14,missing=13
-			13:[ProductRelated_Duration<1185.0769] yes=25,no=26,missing=25
-				25:leaf=0.0676727667
-				26:leaf=0.016642794
-			14:[BounceRates<0.00601810869] yes=27,no=28,missing=27
-				27:leaf=0.0966595635
-				28:leaf=0.0615487881
+			13:[ProductRelated_Duration<1185.0769] yes=27,no=28,missing=27
+				27:leaf=0.0752753764
+				28:leaf=0.0168671533
+			14:[BounceRates<0.00601810869] yes=29,no=30,missing=29
+				29:leaf=0.10795179
+				30:leaf=0.0678329468
+booster[10]:
+0:[PageValues<0.0525420457] yes=1,no=2,missing=1
+	1:[Month_Nov<1] yes=3,no=4,missing=3
+		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
+			7:[VisitorType_New_Visitor<1] yes=15,no=16,missing=15
+				15:leaf=-0.12436188
+				16:leaf=-0.0344970152
+			8:[#pages visited<8] yes=17,no=18,missing=17
+				17:leaf=0.0542867556
+				18:leaf=-0.0722951591
+		4:[#pages visited<79] yes=9,no=10,missing=9
+			9:[ExitRates<0.13126567] yes=19,no=20,missing=19
+				19:leaf=-0.018956719
+				20:leaf=-0.115525089
+			10:[Region<4] yes=21,no=22,missing=21
+				21:leaf=0.0569444299
+				22:leaf=-0.0845881253
+	2:[PageValues<27.1605129] yes=5,no=6,missing=5
+		5:[Administrative_Duration<9.25] yes=11,no=12,missing=11
+			11:[ExitRates<0.0143374745] yes=23,no=24,missing=23
+				23:leaf=0.126124084
+				24:leaf=0.0774809793
+			12:[BounceRates<0.0159975588] yes=25,no=26,missing=25
+				25:leaf=0.0551964343
+				26:leaf=-0.0312231146
+		6:[Administrative<2] yes=13,no=14,missing=13
+			13:leaf=0.12271934
+			14:[ExitRates<0.0335799307] yes=29,no=30,missing=29
+				29:leaf=0.0953067169
+				30:leaf=-0.0810021162
 booster[11]:
+0:[PageValues<0.99157536] yes=1,no=2,missing=1
+	1:[Month_May<1] yes=3,no=4,missing=3
+		3:[Month_Mar<1] yes=7,no=8,missing=7
+			7:[ExitRates<0.0764285773] yes=13,no=14,missing=13
+				13:leaf=-0.0108777843
+				14:leaf=-0.102362059
+			8:leaf=-0.135522276
+		4:leaf=-0.131665424
+	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
+		5:[#pages visited<36] yes=9,no=10,missing=9
+			9:leaf=0.110062443
+			10:[ExitRates<0.00546055194] yes=17,no=18,missing=17
+				17:leaf=0.110834554
+				18:leaf=0.0414238609
+		6:[Month_Nov<1] yes=11,no=12,missing=11
+			11:[#pages visited<68] yes=19,no=20,missing=19
+				19:leaf=0.0462145619
+				20:leaf=-0.0171195567
+			12:[Region<9] yes=21,no=22,missing=21
+				21:leaf=0.0828282312
+				22:leaf=-0.042469915
+booster[12]:
 0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
 			7:[ExitRates<0.0764285773] yes=13,no=14,missing=13
-				13:leaf=-0.0140316067
-				14:leaf=-0.0986906365
-			8:leaf=-0.12416517
-		4:leaf=-0.121752679
-	2:[PageValues<19.6686554] yes=5,no=6,missing=5
-		5:[Administrative_Duration<9.25] yes=9,no=10,missing=9
-			9:[ExitRates<0.0143374745] yes=15,no=16,missing=15
-				15:leaf=0.114461601
-				16:leaf=0.0655324981
-			10:[Month_Nov<1] yes=17,no=18,missing=17
-				17:leaf=0.020598853
-				18:leaf=0.0709802061
-		6:[BounceRates<0.0014179491] yes=11,no=12,missing=11
-			11:[Administrative<2] yes=19,no=20,missing=19
-				19:leaf=0.113210917
-				20:leaf=0.0921179503
-			12:[Administrative_Duration<240.887817] yes=21,no=22,missing=21
-				21:leaf=0.0766902938
-				22:leaf=0.00294861081
-booster[12]:
-0:[PageValues<0.99157536] yes=1,no=2,missing=1
-	1:[Month_May<1] yes=3,no=4,missing=3
-		3:[Month_Mar<1] yes=7,no=8,missing=7
-			7:[ExitRates<0.0764285773] yes=13,no=14,missing=13
-				13:leaf=-0.0120194564
-				14:leaf=-0.0933445022
-			8:leaf=-0.121279158
-		4:leaf=-0.119570754
+				13:leaf=-0.0104902564
+				14:leaf=-0.0963323638
+			8:leaf=-0.132218465
+		4:leaf=-0.128528848
 	2:[PageValues<28.0444527] yes=5,no=6,missing=5
-		5:[VisitorType_Returning_Visitor<1] yes=9,no=10,missing=9
-			9:[Administrative<9] yes=15,no=16,missing=15
-				15:leaf=0.108126961
-				16:leaf=-0.00168894546
+		5:[#pages visited<41] yes=9,no=10,missing=9
+			9:[BounceRates<0.0132456142] yes=15,no=16,missing=15
+				15:leaf=0.083658509
+				16:leaf=0.0224734899
 			10:[Month_Nov<1] yes=17,no=18,missing=17
-				17:leaf=0.032380864
-				18:leaf=0.0676135197
-		6:[BounceRates<0.000840395514] yes=11,no=12,missing=11
-			11:leaf=0.102692656
+				17:leaf=0.00100771512
+				18:leaf=0.0732897446
+		6:[Administrative<2] yes=11,no=12,missing=11
+			11:leaf=0.115530275
 			12:[ExitRates<0.0336600728] yes=21,no=22,missing=21
-				21:leaf=0.0808871984
-				22:leaf=0.00476425607
+				21:leaf=0.0860254467
+				22:leaf=-0.0535890087
 booster[13]:
-0:[PageValues<0.99157536] yes=1,no=2,missing=1
-	1:[Month_May<1] yes=3,no=4,missing=3
-		3:[Month_Mar<1] yes=7,no=8,missing=7
-			7:[Administrative<1] yes=13,no=14,missing=13
-				13:leaf=-0.0466145985
-				14:leaf=0.00247711758
-			8:leaf=-0.118768685
-		4:leaf=-0.117324606
-	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
-		5:[Administrative<5] yes=9,no=10,missing=9
-			9:[ProductRelated_Duration<3251.01074] yes=15,no=16,missing=15
-				15:leaf=0.0962693319
-				16:leaf=0.0146265626
-			10:[PageValues<19.8701439] yes=17,no=18,missing=17
-				17:leaf=0.0216329694
-				18:leaf=0.0813010931
-		6:[Month_Nov<1] yes=11,no=12,missing=11
-			11:[ProductRelated<71] yes=19,no=20,missing=19
-				19:leaf=0.0378658883
-				20:leaf=-0.023949502
-			12:[ExitRates<0.0204819776] yes=21,no=22,missing=21
-				21:leaf=0.0839669555
-				22:leaf=0.0459349938
-booster[14]:
 0:[PageValues<3.50891161] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
-			7:[ExitRates<0.0764285773] yes=15,no=16,missing=15
-				15:leaf=-0.00657716347
-				16:leaf=-0.0871440992
+			7:[Administrative<1] yes=15,no=16,missing=15
+				15:leaf=-0.0438216627
+				16:leaf=0.0068478561
 			8:[PageValues<0.796387076] yes=17,no=18,missing=17
-				17:leaf=-0.11657162
-				18:leaf=0.0379340388
-		4:[PageValues<2.63839316] yes=9,no=10,missing=9
-			9:leaf=-0.117288761
-			10:leaf=-0.0429681353
+				17:leaf=-0.129373193
+				18:leaf=0.0467090383
+		4:leaf=-0.126030311
 	2:[BounceRates<0.000960520993] yes=5,no=6,missing=5
 		5:[Administrative<5] yes=11,no=12,missing=11
-			11:[Administrative_Duration<10.5500002] yes=21,no=22,missing=21
-				21:leaf=0.104129136
-				22:leaf=0.0811798498
-			12:[PageValues<5.39108849] yes=23,no=24,missing=23
-				23:leaf=-0.0559832752
-				24:leaf=0.0596431568
+			11:[#how long visited<3325.14795] yes=21,no=22,missing=21
+				21:leaf=0.102437958
+				22:leaf=0.00252806372
+			12:[PageValues<19.8701439] yes=23,no=24,missing=23
+				23:leaf=0.0255924873
+				24:leaf=0.0834505334
 		6:[Month_Dec<1] yes=13,no=14,missing=13
 			13:[ExitRates<0.0190527625] yes=25,no=26,missing=25
-				25:leaf=0.0688022897
-				26:leaf=0.0327364542
-			14:[PageValues<18.1016808] yes=27,no=28,missing=27
-				27:leaf=-0.120667659
-				28:leaf=0.020511698
-booster[15]:
+				25:leaf=0.0746867135
+				26:leaf=0.0341197774
+			14:[PageValues<11.3499584] yes=27,no=28,missing=27
+				27:leaf=-0.181369886
+				28:leaf=-0.000743531273
+booster[14]:
 0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
-			7:[Administrative<1] yes=13,no=14,missing=13
-				13:leaf=-0.0418700874
-				14:leaf=0.00298054586
-			8:leaf=-0.114638127
-		4:leaf=-0.113281071
-	2:[PageValues<27.1605129] yes=5,no=6,missing=5
+			7:[ExitRates<0.0764285773] yes=13,no=14,missing=13
+				13:leaf=-0.00802033301
+				14:leaf=-0.08865989
+			8:leaf=-0.126905799
+		4:leaf=-0.124189101
+	2:[PageValues<28.0444527] yes=5,no=6,missing=5
 		5:[Administrative_Duration<9.25] yes=9,no=10,missing=9
 			9:[ExitRates<0.0143374745] yes=15,no=16,missing=15
-				15:leaf=0.104052804
-				16:leaf=0.0560128503
-			10:[BounceRates<0.0159975588] yes=17,no=18,missing=17
-				17:leaf=0.0364022553
-				18:leaf=-0.0418900475
+				15:leaf=0.114316724
+				16:leaf=0.0616749674
+			10:[Month_Nov<1] yes=17,no=18,missing=17
+				17:leaf=0.0139628211
+				18:leaf=0.0624306053
 		6:[Administrative<2] yes=11,no=12,missing=11
-			11:leaf=0.100854538
-			12:[ExitRates<0.0335799307] yes=21,no=22,missing=21
-				21:leaf=0.0716976821
-				22:leaf=-0.081023626
-booster[16]:
+			11:[ExitRates<0.0287593976] yes=19,no=20,missing=19
+				19:leaf=0.115827583
+				20:leaf=0.0634422973
+			12:[ExitRates<0.0336600728] yes=21,no=22,missing=21
+				21:leaf=0.0767818466
+				22:leaf=-0.0517853834
+booster[15]:
 0:[PageValues<3.50891161] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
-			7:[ExitRates<0.0764285773] yes=15,no=16,missing=15
-				15:leaf=-0.00490499614
-				16:leaf=-0.0807615444
+			7:[Informational<1] yes=15,no=16,missing=15
+				15:leaf=-0.024928242
+				16:leaf=0.0278827567
 			8:[PageValues<0.796387076] yes=17,no=18,missing=17
-				17:leaf=-0.112927713
-				18:leaf=0.0325137973
+				17:leaf=-0.12475244
+				18:leaf=0.0417812839
 		4:[PageValues<2.63839316] yes=9,no=10,missing=9
-			9:leaf=-0.11416129
-			10:leaf=-0.0427407548
+			9:leaf=-0.125227898
+			10:leaf=-0.0455144793
 	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
 		5:[Administrative<9] yes=11,no=12,missing=11
-			11:[PageValues<8.50269699] yes=21,no=22,missing=21
-				21:leaf=0.0168314371
-				22:leaf=0.103203811
-			12:leaf=-0.00937415101
+			11:[PageValues<8.59794617] yes=21,no=22,missing=21
+				21:leaf=0.0216575656
+				22:leaf=0.112614632
+			12:leaf=-0.0144729307
 		6:[PageValues<28.3611107] yes=13,no=14,missing=13
-			13:[Administrative<7] yes=23,no=24,missing=23
-				23:leaf=0.0443854481
-				24:leaf=0.00500875292
+			13:[Month_Dec<1] yes=23,no=24,missing=23
+				23:leaf=0.0411458835
+				24:leaf=-0.0247897971
 			14:[ExitRates<0.0286513865] yes=25,no=26,missing=25
-				25:leaf=0.0781337321
-				26:leaf=0.0188783798
+				25:leaf=0.0835530534
+				26:leaf=0.0182311609
+booster[16]:
+0:[PageValues<6.47633553] yes=1,no=2,missing=1
+	1:[Month_May<1] yes=3,no=4,missing=3
+		3:[Month_Mar<1] yes=7,no=8,missing=7
+			7:[ExitRates<0.0762896836] yes=15,no=16,missing=15
+				15:leaf=-0.00131964753
+				16:leaf=-0.0835257098
+			8:[PageValues<0.796387076] yes=17,no=18,missing=17
+				17:leaf=-0.122861721
+				18:leaf=0.0707912743
+		4:[PageValues<5.10791492] yes=9,no=10,missing=9
+			9:leaf=-0.120384924
+			10:[Administrative<4] yes=21,no=22,missing=21
+				21:leaf=0.0602058619
+				22:leaf=-0.108126476
+	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
+		5:[Administrative<2] yes=11,no=12,missing=11
+			11:leaf=0.117514849
+			12:[ProductRelated_Duration<284.214996] yes=23,no=24,missing=23
+				23:leaf=-0.0165597517
+				24:leaf=0.0957084075
+		6:[#pages visited<27] yes=13,no=14,missing=13
+			13:[ExitRates<0.0309401713] yes=25,no=26,missing=25
+				25:leaf=0.0912269056
+				26:leaf=0.03848188
+			14:[Month_Dec<1] yes=27,no=28,missing=27
+				27:leaf=0.0445228592
+				28:leaf=-0.0336812772
 booster[17]:
-0:[PageValues<0.0525420457] yes=1,no=2,missing=1
+0:[PageValues<0.99157536] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
 			7:[TrafficType<2] yes=13,no=14,missing=13
-				13:leaf=-0.0644754693
-				14:leaf=-0.00415686565
-			8:leaf=-0.111407056
-		4:leaf=-0.110400848
-	2:[PageValues<28.0444527] yes=5,no=6,missing=5
-		5:[Administrative_Duration<9.25] yes=9,no=10,missing=9
-			9:[ExitRates<0.0143374745] yes=15,no=16,missing=15
-				15:leaf=0.0997336283
-				16:leaf=0.0501778238
-			10:[BounceRates<0.0159975588] yes=17,no=18,missing=17
-				17:leaf=0.0315276235
-				18:leaf=-0.0410519615
-		6:[Administrative<2] yes=11,no=12,missing=11
-			11:[ExitRates<0.0287593976] yes=19,no=20,missing=19
-				19:leaf=0.102053061
-				20:leaf=0.0545027554
-			12:[ExitRates<0.0336600728] yes=21,no=22,missing=21
-				21:leaf=0.0636481568
-				22:leaf=-0.0507062152
+				13:leaf=-0.0650366694
+				14:leaf=-0.00139325007
+			8:leaf=-0.121191792
+		4:leaf=-0.119942702
+	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
+		5:[Administrative<5] yes=9,no=10,missing=9
+			9:[#how long visited<3594.2583] yes=15,no=16,missing=15
+				15:leaf=0.0894471332
+				16:leaf=-0.0446479209
+			10:[PageValues<10.1454964] yes=17,no=18,missing=17
+				17:leaf=-0.0277790539
+				18:leaf=0.0528296083
+		6:[Month_Nov<1] yes=11,no=12,missing=11
+			11:[ProductRelated_Duration<1185.0769] yes=19,no=20,missing=19
+				19:leaf=0.0419833958
+				20:leaf=-0.00687314477
+			12:[ProductRelated_Duration<4370.26758] yes=21,no=22,missing=21
+				21:leaf=0.0374184847
+				22:leaf=0.0891371146
 booster[18]:
 0:[PageValues<6.47633553] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
-		3:[Informational<1] yes=7,no=8,missing=7
-			7:[Month_Nov<1] yes=15,no=16,missing=15
-				15:leaf=-0.0482421219
-				16:leaf=-0.00406989502
-			8:[Month_Jul<1] yes=17,no=18,missing=17
-				17:leaf=0.0113190999
-				18:leaf=0.114687681
+		3:[Month_Mar<1] yes=7,no=8,missing=7
+			7:[BounceRates<0.0118058082] yes=15,no=16,missing=15
+				15:leaf=0.00591945136
+				16:leaf=-0.0416835845
+			8:[PageValues<0.796387076] yes=17,no=18,missing=17
+				17:leaf=-0.119708136
+				18:leaf=0.0636121333
 		4:[PageValues<5.10791492] yes=9,no=10,missing=9
-			9:leaf=-0.109249793
+			9:leaf=-0.115782551
 			10:[Administrative<4] yes=21,no=22,missing=21
-				21:leaf=0.0531883352
-				22:leaf=-0.087909475
+				21:leaf=0.0547722355
+				22:leaf=-0.096297577
 	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
-		5:leaf=0.0942091644
+		5:[Administrative<2] yes=11,no=12,missing=11
+			11:leaf=0.113913648
+			12:[ProductRelated_Duration<290.575012] yes=23,no=24,missing=23
+				23:leaf=-0.0129061118
+				24:leaf=0.0890113935
 		6:[ExitRates<0.0156445336] yes=13,no=14,missing=13
-			13:[Administrative_Duration<100.958328] yes=27,no=28,missing=27
-				27:leaf=0.0778694898
-				28:leaf=0.0394177772
-			14:[Month_Dec<1] yes=29,no=30,missing=29
-				29:leaf=0.0373178869
-				30:leaf=-0.0304248091
+			13:[Administrative_Duration<100.958328] yes=25,no=26,missing=25
+				25:leaf=0.0825252831
+				26:leaf=0.037039578
+			14:[#how long visited<570.387329] yes=27,no=28,missing=27
+				27:leaf=0.076943092
+				28:leaf=0.0145348124
 booster[19]:
-0:[PageValues<0.99157536] yes=1,no=2,missing=1
+0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
-			7:[BounceRates<0.0125248395] yes=13,no=14,missing=13
-				13:leaf=0.00133044703
-				14:leaf=-0.0463570468
-			8:leaf=-0.109634712
-		4:leaf=-0.10853038
-	2:[BounceRates<0.000405663013] yes=5,no=6,missing=5
-		5:[ProductRelated<33] yes=9,no=10,missing=9
-			9:[Administrative<9] yes=15,no=16,missing=15
-				15:leaf=0.0824899226
-				16:leaf=-0.0431405082
-			10:[ExitRates<0.00546055194] yes=17,no=18,missing=17
-				17:leaf=0.0819476843
-				18:leaf=0.0110587543
-		6:[Month_Nov<1] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<1185.0769] yes=19,no=20,missing=19
-				19:leaf=0.0387135409
-				20:leaf=-0.00766121736
-			12:[ProductRelated_Duration<4370.26758] yes=21,no=22,missing=21
-				21:leaf=0.0350253619
-				22:leaf=0.0806436762
+			7:[ExitRates<0.00401058234] yes=13,no=14,missing=13
+				13:leaf=-0.130939543
+				14:leaf=-0.00616706535
+			8:leaf=-0.11838191
+		4:leaf=-0.11718443
+	2:[Administrative<2] yes=5,no=6,missing=5
+		5:[PageValues<22.487648] yes=9,no=10,missing=9
+			9:[ExitRates<0.0408333316] yes=15,no=16,missing=15
+				15:leaf=0.0570473224
+				16:leaf=-0.0598007813
+			10:[BounceRates<0.0033107195] yes=17,no=18,missing=17
+				17:leaf=0.106872737
+				18:leaf=0.0652548149
+		6:[ExitRates<0.0188595299] yes=11,no=12,missing=11
+			11:[PageValues<10.3105526] yes=19,no=20,missing=19
+				19:leaf=0.0140469884
+				20:leaf=0.0550471991
+			12:[Month_Dec<1] yes=21,no=22,missing=21
+				21:leaf=0.00800135359
+				22:leaf=-0.0825374201
 booster[20]:
 0:[PageValues<6.47633553] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
-		3:[ExitRates<0.0762896836] yes=7,no=8,missing=7
-			7:[ProductRelated_Duration<27.4333344] yes=15,no=16,missing=15
-				15:leaf=0.121849455
-				16:leaf=-0.0114263715
-			8:[Administrative<1] yes=17,no=18,missing=17
-				17:leaf=-0.0948463306
-				18:leaf=0.0248803701
-		4:[PageValues<5.10791492] yes=9,no=10,missing=9
-			9:leaf=-0.105647348
-			10:[Administrative<4] yes=21,no=22,missing=21
-				21:leaf=0.048780214
-				22:leaf=-0.080844447
+		3:[Informational<1] yes=7,no=8,missing=7
+			7:[Administrative_Duration<19.7333336] yes=15,no=16,missing=15
+				15:leaf=-0.0453778207
+				16:leaf=0.00163731968
+			8:[Month_Jul<1] yes=17,no=18,missing=17
+				17:leaf=0.0115262773
+				18:leaf=0.135322824
+		4:[PageValues<2.13573837] yes=9,no=10,missing=9
+			9:leaf=-0.119557358
+			10:[Administrative_Duration<19.25] yes=19,no=20,missing=19
+				19:leaf=0.0754139423
+				20:leaf=-0.0909200385
 	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
-		5:[Administrative<2] yes=11,no=12,missing=11
-			11:leaf=0.103344418
-			12:[ProductRelated_Duration<297.399994] yes=23,no=24,missing=23
-				23:leaf=-0.0103440387
-				24:leaf=0.0802017003
-		6:[ProductRelated_Duration<788.696655] yes=13,no=14,missing=13
-			13:[BounceRates<0.0152014652] yes=25,no=26,missing=25
-				25:leaf=0.072294198
-				26:leaf=0.016966382
-			14:[ExitRates<0.0156445336] yes=27,no=28,missing=27
-				27:leaf=0.0465757549
-				28:leaf=0.0114916842
+		5:leaf=0.0933647901
+		6:[#pages visited<27] yes=13,no=14,missing=13
+			13:[PageValues<23.5768967] yes=23,no=24,missing=23
+				23:leaf=0.0293004103
+				24:leaf=0.0831512958
+			14:[Month_Dec<1] yes=25,no=26,missing=25
+				25:leaf=0.0310157854
+				26:leaf=-0.040158242
 booster[21]:
 0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
 			7:[TrafficType<2] yes=13,no=14,missing=13
-				13:leaf=-0.0557966419
-				14:leaf=-0.000530375866
-			8:leaf=-0.108359195
-		4:leaf=-0.106309593
-	2:[Administrative<2] yes=5,no=6,missing=5
-		5:[PageValues<22.487648] yes=9,no=10,missing=9
-			9:[ExitRates<0.0408333316] yes=15,no=16,missing=15
-				15:leaf=0.0518093817
-				16:leaf=-0.0614496842
-			10:leaf=0.0870300233
-		6:[SpecialDay<0.700000048] yes=11,no=12,missing=11
-			11:[ExitRates<0.0188595299] yes=19,no=20,missing=19
-				19:leaf=0.0381200723
-				20:leaf=0.00443201931
-			12:leaf=-0.127132148
+				13:leaf=-0.058571808
+				14:leaf=0.00141505804
+			8:leaf=-0.117062539
+		4:leaf=-0.115298077
+	2:[#pages visited<26] yes=5,no=6,missing=5
+		5:[ExitRates<0.0426406935] yes=9,no=10,missing=9
+			9:[BounceRates<0.00138888904] yes=15,no=16,missing=15
+				15:leaf=0.0890748203
+				16:leaf=0.0464714542
+			10:[BounceRates<0.0258333348] yes=17,no=18,missing=17
+				17:leaf=-0.0744956955
+				18:leaf=0.0615162477
+		6:[ExitRates<0.0191504918] yes=11,no=12,missing=11
+			11:[Month_Nov<1] yes=19,no=20,missing=19
+				19:leaf=0.0221118759
+				20:leaf=0.0681740642
+			12:[Month_Dec<1] yes=21,no=22,missing=21
+				21:leaf=0.00439728657
+				22:leaf=-0.118658721
 booster[22]:
 0:[PageValues<6.47633553] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
-		3:[Informational<1] yes=7,no=8,missing=7
-			7:[ProductRelated<144] yes=15,no=16,missing=15
-				15:leaf=-0.0256478023
-				16:leaf=0.0882691294
-			8:[Informational_Duration<9.25] yes=17,no=18,missing=17
-				17:leaf=0.0773791298
-				18:leaf=0.0061130356
+		3:[ExitRates<0.0762896836] yes=7,no=8,missing=7
+			7:[ProductRelated_Duration<27.4333344] yes=15,no=16,missing=15
+				15:leaf=0.139174789
+				16:leaf=-0.00897248555
+			8:[Administrative<1] yes=17,no=18,missing=17
+				17:leaf=-0.0984861404
+				18:leaf=0.0425063185
 		4:[PageValues<2.63839316] yes=9,no=10,missing=9
-			9:leaf=-0.107720673
-			10:[ExitRates<0.0278155878] yes=21,no=22,missing=21
-				21:leaf=-0.0108748889
-				22:leaf=-0.150214955
+			9:leaf=-0.116709538
+			10:[Informational_Duration<40.5] yes=21,no=22,missing=21
+				21:leaf=-0.00324140792
+				22:leaf=-0.152262673
 	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
 		5:[Administrative<2] yes=11,no=12,missing=11
-			11:leaf=0.100494742
-			12:[ProductRelated_Duration<297.399994] yes=23,no=24,missing=23
-				23:leaf=-0.0119681368
-				24:leaf=0.075512372
-		6:[ProductRelated<23] yes=13,no=14,missing=13
-			13:[ExitRates<0.0309401713] yes=25,no=26,missing=25
-				25:leaf=0.0735378936
-				26:leaf=0.0111944173
+			11:leaf=0.107641205
+			12:[Administrative_Duration<64.5333328] yes=23,no=24,missing=23
+				23:leaf=0.00310966861
+				24:leaf=0.0803603902
+		6:[ExitRates<0.014563893] yes=13,no=14,missing=13
+			13:[Administrative_Duration<100.958328] yes=25,no=26,missing=25
+				25:leaf=0.0748640224
+				26:leaf=0.0217364635
 			14:[Month_Dec<1] yes=27,no=28,missing=27
-				27:leaf=0.0292773992
-				28:leaf=-0.0402192958
+				27:leaf=0.0227308627
+				28:leaf=-0.0377922207
 booster[23]:
-0:[PageValues<0.70835495] yes=1,no=2,missing=1
+0:[PageValues<0.0525420457] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
-			7:[ExitRates<0.00401058234] yes=13,no=14,missing=13
-				13:leaf=-0.115996771
-				14:leaf=-0.003213007
-			8:leaf=-0.107157789
-		4:leaf=-0.104919709
-	2:[Administrative<2] yes=5,no=6,missing=5
-		5:[PageValues<22.487648] yes=9,no=10,missing=9
-			9:[ExitRates<0.0408333316] yes=15,no=16,missing=15
-				15:leaf=0.0467580371
-				16:leaf=-0.0544317849
-			10:[BounceRates<0.0033107195] yes=17,no=18,missing=17
-				17:leaf=0.0940319076
-				18:leaf=0.0534660108
-		6:[Month_Nov<1] yes=11,no=12,missing=11
-			11:[ProductRelated<33] yes=19,no=20,missing=19
-				19:leaf=0.0387148783
-				20:leaf=-0.0169203263
-			12:[ExitRates<0.0285239816] yes=21,no=22,missing=21
-				21:leaf=0.0519982539
-				22:leaf=-0.0108754188
+			7:[ExitRates<0.00304215192] yes=13,no=14,missing=13
+				13:leaf=-0.151981845
+				14:leaf=-0.00302283512
+			8:leaf=-0.115954816
+		4:leaf=-0.113747239
+	2:[Administrative_Duration<3.5] yes=5,no=6,missing=5
+		5:[ExitRates<0.0143374745] yes=9,no=10,missing=9
+			9:leaf=0.102975607
+			10:[#how long visited<738.861328] yes=17,no=18,missing=17
+				17:leaf=0.085182026
+				18:leaf=0.0158395413
+		6:[SpecialDay<0.700000048] yes=11,no=12,missing=11
+			11:[ExitRates<0.0307222288] yes=19,no=20,missing=19
+				19:leaf=0.0276509076
+				20:leaf=-0.0203034673
+			12:leaf=-0.13125734
 booster[24]:
+0:[PageValues<10.3394299] yes=1,no=2,missing=1
+	1:[Month_Nov<1] yes=3,no=4,missing=3
+		3:[Administrative<1] yes=7,no=8,missing=7
+			7:[PageValues<0.0696003139] yes=15,no=16,missing=15
+				15:leaf=-0.0875489861
+				16:leaf=0.0416129082
+			8:[#how long visited<182.683334] yes=17,no=18,missing=17
+				17:leaf=0.0814721361
+				18:leaf=-0.0262789391
+		4:[ProductRelated_Duration<1179.57141] yes=9,no=10,missing=9
+			9:[TrafficType<12] yes=19,no=20,missing=19
+				19:leaf=-0.00593358697
+				20:leaf=-0.126326576
+			10:[ExitRates<0.00434685871] yes=21,no=22,missing=21
+				21:leaf=-0.10610161
+				22:leaf=0.0343509503
+	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
+		5:[Administrative<8] yes=11,no=12,missing=11
+			11:leaf=0.0900494903
+			12:leaf=0.0110789919
+		6:[#how long visited<1150.16675] yes=13,no=14,missing=13
+			13:[BounceRates<0.0287784673] yes=25,no=26,missing=25
+				25:leaf=0.0561784022
+				26:leaf=-0.0483239219
+			14:[BounceRates<0.0125992065] yes=27,no=28,missing=27
+				27:leaf=0.0232268944
+				28:leaf=-0.0691986978
+booster[25]:
 0:[PageValues<6.47633553] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[ExitRates<0.0762896836] yes=7,no=8,missing=7
 			7:[ProductRelated_Duration<27.4333344] yes=15,no=16,missing=15
-				15:leaf=0.112281024
-				16:leaf=-0.00789679866
+				15:leaf=0.11738883
+				16:leaf=-0.00641935319
 			8:[Administrative<1] yes=17,no=18,missing=17
-				17:leaf=-0.0894974992
-				18:leaf=0.026130477
+				17:leaf=-0.0922846869
+				18:leaf=0.0369043127
 		4:[PageValues<2.13573837] yes=9,no=10,missing=9
-			9:leaf=-0.107645385
-			10:[Administrative_Duration<19.25] yes=19,no=20,missing=19
-				19:leaf=0.0645064041
-				20:leaf=-0.0767635331
+			9:leaf=-0.116970092
+			10:[ExitRates<0.0278155878] yes=19,no=20,missing=19
+				19:leaf=-0.00555386767
+				20:leaf=-0.156110257
 	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
-		5:leaf=0.080731295
-		6:[ExitRates<0.014563893] yes=13,no=14,missing=13
-			13:[Administrative_Duration<100.958328] yes=23,no=24,missing=23
-				23:leaf=0.0673807412
-				24:leaf=0.0209026411
-			14:[Month_Dec<1] yes=25,no=26,missing=25
-				25:leaf=0.022892423
-				26:leaf=-0.0403056107
-booster[25]:
-0:[PageValues<0.70835495] yes=1,no=2,missing=1
-	1:[Month_Nov<1] yes=3,no=4,missing=3
-		3:[Administrative_Duration<1.66666675] yes=7,no=8,missing=7
-			7:[Informational_Duration<5.75] yes=15,no=16,missing=15
-				15:leaf=-0.0936840102
-				16:leaf=0.0163001493
-			8:[ProductRelated<6] yes=17,no=18,missing=17
-				17:leaf=0.0700193048
-				18:leaf=-0.034262605
-		4:[ProductRelated<72] yes=9,no=10,missing=9
-			9:[TrafficType<12] yes=19,no=20,missing=19
-				19:leaf=0.00121739786
-				20:leaf=-0.0995667353
-			10:[Informational_Duration<37.6666641] yes=21,no=22,missing=21
-				21:leaf=0.0683950409
-				22:leaf=-0.0122334883
-	2:[ProductRelated_Duration<1052.12378] yes=5,no=6,missing=5
-		5:[BounceRates<0.000963646569] yes=11,no=12,missing=11
-			11:[Administrative<1] yes=23,no=24,missing=23
-				23:leaf=0.0911129043
-				24:leaf=0.0536308475
-			12:[ExitRates<0.019392157] yes=25,no=26,missing=25
-				25:leaf=0.0642764792
-				26:leaf=0.0105471238
-		6:[Month_Nov<1] yes=13,no=14,missing=13
-			13:[ExitRates<0.00770396274] yes=27,no=28,missing=27
-				27:leaf=0.0462804884
-				28:leaf=-0.0111303059
-			14:[ExitRates<0.0380510539] yes=29,no=30,missing=29
-				29:leaf=0.0469498374
-				30:leaf=-0.0831596926
+		5:[Administrative<2] yes=11,no=12,missing=11
+			11:leaf=0.103119753
+			12:[#how long visited<510.483337] yes=21,no=22,missing=21
+				21:leaf=-0.0277287308
+				22:leaf=0.0690312609
+		6:[Administrative<12] yes=13,no=14,missing=13
+			13:[ExitRates<0.014563893] yes=23,no=24,missing=23
+				23:leaf=0.0468079187
+				24:leaf=0.0133085111
+			14:[Weekend<1] yes=25,no=26,missing=25
+				25:leaf=-0.100899756
+				26:leaf=0.0529908426
 booster[26]:
-0:[PageValues<10.3394299] yes=1,no=2,missing=1
-	1:[Month_Nov<1] yes=3,no=4,missing=3
-		3:[Administrative<1] yes=7,no=8,missing=7
-			7:[PageValues<0.0696003139] yes=15,no=16,missing=15
-				15:leaf=-0.0797452852
-				16:leaf=0.0378279723
-			8:[ProductRelated_Duration<97.6999969] yes=17,no=18,missing=17
-				17:leaf=0.0630726442
-				18:leaf=-0.0232506916
-		4:[ProductRelated<56] yes=9,no=10,missing=9
-			9:[TrafficType<8] yes=19,no=20,missing=19
-				19:leaf=-0.0204555187
-				20:leaf=0.0303622838
-			10:[ProductRelated<59] yes=21,no=22,missing=21
-				21:leaf=0.110504985
-				22:leaf=0.0304720756
-	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
-		5:leaf=0.0765263587
-		6:[ProductRelated_Duration<768.161865] yes=13,no=14,missing=13
-			13:[ExitRates<0.03138889] yes=25,no=26,missing=25
-				25:leaf=0.0668186247
-				26:leaf=0.0214347094
-			14:[ExitRates<0.0184392538] yes=27,no=28,missing=27
-				27:leaf=0.0335341953
-				28:leaf=-0.00932986941
-booster[27]:
-0:[PageValues<0.0525420457] yes=1,no=2,missing=1
+0:[PageValues<0.70835495] yes=1,no=2,missing=1
 	1:[Month_May<1] yes=3,no=4,missing=3
 		3:[Month_Mar<1] yes=7,no=8,missing=7
 			7:[ExitRates<0.00304215192] yes=13,no=14,missing=13
-				13:leaf=-0.135815859
-				14:leaf=-0.000861371576
-			8:leaf=-0.105751209
-		4:leaf=-0.102984272
-	2:[Administrative_Duration<3.5] yes=5,no=6,missing=5
-		5:[ExitRates<0.0143374745] yes=9,no=10,missing=9
-			9:leaf=0.0901854634
-			10:[ProductRelated_Duration<767.837524] yes=17,no=18,missing=17
-				17:leaf=0.072455883
-				18:leaf=0.0106993588
-		6:[Administrative<10] yes=11,no=12,missing=11
-			11:[BounceRates<0.0130032208] yes=19,no=20,missing=19
-				19:leaf=0.0279006269
-				20:leaf=-0.0129614938
-			12:[Informational_Duration<118.400002] yes=21,no=22,missing=21
-				21:leaf=-0.0718161985
-				22:leaf=0.0300210174
-booster[28]:
-0:[PageValues<10.3394299] yes=1,no=2,missing=1
-	1:[Month_May<1] yes=3,no=4,missing=3
-		3:[ExitRates<0.0390032046] yes=7,no=8,missing=7
-			7:[ExitRates<0.00278218696] yes=15,no=16,missing=15
-				15:leaf=-0.115978301
-				16:leaf=0.00735957641
-			8:[Administrative<1] yes=17,no=18,missing=17
-				17:leaf=-0.0565059893
-				18:leaf=0.00111740385
-		4:[PageValues<5.10791492] yes=9,no=10,missing=9
-			9:leaf=-0.0965269431
-			10:[Informational_Duration<40] yes=21,no=22,missing=21
-				21:leaf=0.0250033829
-				22:leaf=-0.0813230425
-	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
-		5:[Administrative<8] yes=11,no=12,missing=11
-			11:leaf=0.0788295716
-			12:leaf=0.00623777648
-		6:[ProductRelated_Duration<768.161865] yes=13,no=14,missing=13
-			13:[ExitRates<0.0321987793] yes=25,no=26,missing=25
-				25:leaf=0.0615453497
-				26:leaf=0.0165921655
-			14:[ExitRates<0.0184392538] yes=27,no=28,missing=27
-				27:leaf=0.0291677248
-				28:leaf=-0.0096711712
-booster[29]:
-0:[PageValues<0.99157536] yes=1,no=2,missing=1
-	1:[Month_Mar<1] yes=3,no=4,missing=3
-		3:[Month_May<1] yes=7,no=8,missing=7
-			7:[TrafficType<2] yes=13,no=14,missing=13
-				13:leaf=-0.0441649817
-				14:leaf=0.00479880115
-			8:leaf=-0.102401748
-		4:leaf=-0.104887508
-	2:[Administrative_Duration<3.5] yes=5,no=6,missing=5
-		5:[ExitRates<0.0128650889] yes=9,no=10,missing=9
-			9:leaf=0.0890410021
-			10:[ProductRelated_Duration<742.31665] yes=17,no=18,missing=17
-				17:leaf=0.0709860846
-				18:leaf=0.00929033756
-		6:[SpecialDay<0.700000048] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<4582.92969] yes=19,no=20,missing=19
-				19:leaf=0.00969388802
-				20:leaf=0.0469232015
-			12:leaf=-0.108442865
-booster[30]:
-0:[PageValues<10.3394299] yes=1,no=2,missing=1
-	1:[Month_May<1] yes=3,no=4,missing=3
-		3:[ExitRates<0.0762896836] yes=7,no=8,missing=7
-			7:[ProductRelated_Duration<27.4333344] yes=15,no=16,missing=15
-				15:leaf=0.0937662646
-				16:leaf=-0.00331596704
-			8:[Browser<4] yes=17,no=18,missing=17
-				17:leaf=-0.078940995
-				18:leaf=0.0323781706
-		4:[PageValues<2.13573837] yes=9,no=10,missing=9
-			9:leaf=-0.105871394
-			10:[ProductRelated<97] yes=19,no=20,missing=19
-				19:leaf=-0.00700454554
-				20:leaf=-0.150424913
-	2:[VisitorType_Returning_Visitor<1] yes=5,no=6,missing=5
-		5:leaf=0.0684001967
-		6:[Administrative_Duration<91.625] yes=13,no=14,missing=13
-			13:[ExitRates<0.00759615377] yes=23,no=24,missing=23
-				23:leaf=0.0835644826
-				24:leaf=0.0260104686
-			14:[BounceRates<0.0129759125] yes=25,no=26,missing=25
-				25:leaf=0.0106089087
-				26:leaf=-0.0698405653
-booster[31]:
-0:[PageValues<27.1605129] yes=1,no=2,missing=1
+				13:leaf=-0.145032585
+				14:leaf=-0.000947528111
+			8:leaf=-0.114801124
+		4:leaf=-0.112335622
+	2:[Administrative_Duration<9.25] yes=5,no=6,missing=5
+		5:[BounceRates<0.000779885042] yes=9,no=10,missing=9
+			9:leaf=0.0844175369
+			10:[Month_Dec<1] yes=17,no=18,missing=17
+				17:leaf=0.0467102341
+				18:leaf=-0.0836111531
+		6:[BounceRates<0.0159975588] yes=11,no=12,missing=11
+			11:[Month_Nov<1] yes=19,no=20,missing=19
+				19:leaf=0.00761061022
+				20:leaf=0.0432742164
+			12:[Region<2] yes=21,no=22,missing=21
+				21:leaf=-0.126050234
+				22:leaf=-0.00155883154
+booster[27]:
+0:[PageValues<27.059166] yes=1,no=2,missing=1
 	1:[Month_Nov<1] yes=3,no=4,missing=3
 		3:[Administrative<1] yes=7,no=8,missing=7
 			7:[PageValues<0.0696003139] yes=15,no=16,missing=15
-				15:leaf=-0.0720191672
-				16:leaf=0.0337459221
-			8:[ProductRelated<33] yes=17,no=18,missing=17
-				17:leaf=0.0125253219
-				18:leaf=-0.0320190564
-		4:[ProductRelated<73] yes=9,no=10,missing=9
-			9:[ProductRelated_Duration<3783.64404] yes=19,no=20,missing=19
-				19:leaf=0.00290108426
-				20:leaf=-0.166727111
-			10:[ProductRelated_Duration<2153.37549] yes=21,no=22,missing=21
-				21:leaf=-0.0773002803
-				22:leaf=0.046198383
+				15:leaf=-0.0809051171
+				16:leaf=0.0399087816
+			8:[#pages visited<8] yes=17,no=18,missing=17
+				17:leaf=0.071692355
+				18:leaf=-0.0156345796
+		4:[OperatingSystems<3] yes=9,no=10,missing=9
+			9:[#how long visited<20.125] yes=19,no=20,missing=19
+				19:leaf=-0.124456279
+				20:leaf=0.0263290945
+			10:[Region<4] yes=21,no=22,missing=21
+				21:leaf=0.000640205049
+				22:leaf=-0.0915555805
 	2:[Administrative<2] yes=5,no=6,missing=5
-		5:leaf=0.0694312975
+		5:[ExitRates<0.0355042033] yes=11,no=12,missing=11
+			11:leaf=0.0879469961
+			12:[PageValues<38.936142] yes=25,no=26,missing=25
+				25:leaf=0.0805643424
+				26:leaf=-0.0321109109
 		6:[ExitRates<0.0335799307] yes=13,no=14,missing=13
-			13:[ProductRelated<22] yes=27,no=28,missing=27
-				27:leaf=0.0597512387
-				28:leaf=0.0183966309
-			14:leaf=-0.0913189128
-booster[32]:
+			13:[Weekend<1] yes=27,no=28,missing=27
+				27:leaf=0.0230544526
+				28:leaf=0.0677751377
+			14:leaf=-0.089238964
+booster[28]:
+0:[PageValues<0.99157536] yes=1,no=2,missing=1
+	1:[Month_May<1] yes=3,no=4,missing=3
+		3:[Month_Mar<1] yes=7,no=8,missing=7
+			7:[TrafficType<2] yes=13,no=14,missing=13
+				13:leaf=-0.0468757339
+				14:leaf=0.00484955544
+			8:leaf=-0.113812402
+		4:leaf=-0.111989468
+	2:[#pages visited<26] yes=5,no=6,missing=5
+		5:[BounceRates<0.00138888904] yes=9,no=10,missing=9
+			9:leaf=0.0715137199
+			10:[BounceRates<0.00801282004] yes=17,no=18,missing=17
+				17:leaf=-0.101617485
+				18:leaf=0.0292676017
+		6:[BounceRates<0.0252118651] yes=11,no=12,missing=11
+			11:[Month_Nov<1] yes=19,no=20,missing=19
+				19:leaf=0.00130989391
+				20:leaf=0.0378984697
+			12:[ExitRates<0.0570861101] yes=21,no=22,missing=21
+				21:leaf=-0.218596786
+				22:leaf=0.00784427393
+booster[29]:
 0:[ExitRates<0.0399624817] yes=1,no=2,missing=1
 	1:[PageValues<29.8933411] yes=3,no=4,missing=3
-		3:[Month_Nov<1] yes=7,no=8,missing=7
-			7:[ProductRelated_Duration<18.6000004] yes=15,no=16,missing=15
-				15:leaf=0.118737832
-				16:leaf=-0.0104320655
-			8:[ProductRelated<34] yes=17,no=18,missing=17
-				17:leaf=-0.00615758169
-				18:leaf=0.029459903
-		4:[Administrative<2] yes=9,no=10,missing=9
-			9:leaf=0.0747243986
-			10:[Weekend<1] yes=21,no=22,missing=21
-				21:leaf=0.0152975442
-				22:leaf=0.0603259802
+		3:[#how long visited<97.0833282] yes=7,no=8,missing=7
+			7:[ProductRelated<5] yes=15,no=16,missing=15
+				15:leaf=0.126602799
+				16:leaf=-0.0393539406
+			8:[Informational<1] yes=17,no=18,missing=17
+				17:leaf=-0.00989910774
+				18:leaf=0.0170778409
+		4:[Administrative_Duration<2] yes=9,no=10,missing=9
+			9:leaf=0.0960636139
+			10:[ProductRelated<22] yes=21,no=22,missing=21
+				21:leaf=0.0666370839
+				22:leaf=0.0191387832
 	2:[Administrative_Duration<16.1000004] yes=5,no=6,missing=5
 		5:[ProductRelated<6] yes=11,no=12,missing=11
 			11:[TrafficType<5] yes=23,no=24,missing=23
-				23:leaf=-0.105790846
-				24:leaf=-0.0338132754
+				23:leaf=-0.115845613
+				24:leaf=-0.0346791483
 			12:[ProductRelated_Duration<376.75] yes=25,no=26,missing=25
-				25:leaf=0.0225170162
-				26:leaf=-0.0586804561
-		6:[ProductRelated<2] yes=13,no=14,missing=13
-			13:leaf=0.151370093
-			14:[ExitRates<0.0643055588] yes=27,no=28,missing=27
-				27:leaf=-0.0428658836
-				28:leaf=0.0594529621
-booster[33]:
-0:[PageValues<0.0525420457] yes=1,no=2,missing=1
-	1:[Month_Mar<1] yes=3,no=4,missing=3
-		3:[Month_May<1] yes=7,no=8,missing=7
-			7:[ExitRates<0.00304215192] yes=13,no=14,missing=13
-				13:leaf=-0.127933532
-				14:leaf=0.000746950798
-			8:leaf=-0.100768447
-		4:leaf=-0.10403236
-	2:[ProductRelated<22] yes=5,no=6,missing=5
-		5:[ExitRates<0.0426406935] yes=9,no=10,missing=9
-			9:[Informational_Duration<58.5] yes=15,no=16,missing=15
-				15:leaf=0.0595427267
-				16:leaf=-0.0115591111
-			10:[BounceRates<0.0258333348] yes=17,no=18,missing=17
-				17:leaf=-0.0875018537
-				18:leaf=0.0504958294
-		6:[ExitRates<0.00764673343] yes=11,no=12,missing=11
-			11:[Administrative_Duration<105.099998] yes=19,no=20,missing=19
-				19:leaf=0.0709096268
-				20:leaf=0.0108665926
-			12:[Administrative<10] yes=21,no=22,missing=21
-				21:leaf=0.0091739716
-				22:leaf=-0.0323362574
-booster[34]:
+				25:leaf=0.0218890645
+				26:leaf=-0.0640874878
+		6:[#how long visited<159.649994] yes=13,no=14,missing=13
+			13:[TrafficType<3] yes=27,no=28,missing=27
+				27:leaf=-0.0273817945
+				28:leaf=0.137862518
+			14:[Informational_Duration<44.8333359] yes=29,no=30,missing=29
+				29:leaf=-0.0194971133
+				30:leaf=-0.11357221
+booster[30]:
+0:[PageValues<10.3394299] yes=1,no=2,missing=1
+	1:[Month_May<1] yes=3,no=4,missing=3
+		3:[TrafficType<4] yes=7,no=8,missing=7
+			7:[#pages visited<79] yes=15,no=16,missing=15
+				15:leaf=-0.0247225557
+				16:leaf=0.0284088403
+			8:[TrafficType<12] yes=17,no=18,missing=17
+				17:leaf=0.0394289307
+				18:leaf=-0.051046893
+		4:[PageValues<2.13573837] yes=9,no=10,missing=9
+			9:leaf=-0.115995154
+			10:[ProductRelated<97] yes=19,no=20,missing=19
+				19:leaf=-0.0104415501
+				20:leaf=-0.159999803
+	2:[VisitorType_New_Visitor<1] yes=5,no=6,missing=5
+		5:[ExitRates<0.0066580642] yes=11,no=12,missing=11
+			11:leaf=0.0676877275
+			12:[#how long visited<1150.16675] yes=23,no=24,missing=23
+				23:leaf=0.034683235
+				24:leaf=-0.00401654234
+		6:leaf=0.0716861263
+booster[31]:
+0:[VisitorType_New_Visitor<1] yes=1,no=2,missing=1
+	1:[PageValues<0.0525420457] yes=3,no=4,missing=3
+		3:[Month_Nov<1] yes=7,no=8,missing=7
+			7:[Administrative_Duration<11.833334] yes=15,no=16,missing=15
+				15:leaf=-0.0856685489
+				16:leaf=-0.00836303923
+			8:[ExitRates<0.00914862566] yes=17,no=18,missing=17
+				17:leaf=-0.0898202732
+				18:leaf=0.00631399825
+		4:[Administrative<17] yes=9,no=10,missing=9
+			9:[ExitRates<0.00345814461] yes=19,no=20,missing=19
+				19:leaf=0.0879174173
+				20:leaf=0.0101217739
+			10:leaf=-0.114508823
+	2:[ProductRelated_Duration<446.940491] yes=5,no=6,missing=5
+		5:[ProductRelated_Duration<27.4333344] yes=11,no=12,missing=11
+			11:[BounceRates<0.00625000009] yes=21,no=22,missing=21
+				21:leaf=0.113522775
+				22:leaf=0.0132415053
+			12:[ExitRates<0.0344444439] yes=23,no=24,missing=23
+				23:leaf=-0.00498325797
+				24:leaf=-0.128999874
+		6:[ExitRates<0.00336158182] yes=13,no=14,missing=13
+			13:[PageValues<19.9472294] yes=25,no=26,missing=25
+				25:leaf=-0.134631023
+				26:leaf=0.0853239372
+			14:[Month_Dec<1] yes=27,no=28,missing=27
+				27:leaf=0.0528406724
+				28:leaf=0.139323071
+booster[32]:
 0:[BounceRates<0.0125125051] yes=1,no=2,missing=1
 	1:[PageValues<19.1976471] yes=3,no=4,missing=3
-		3:[ProductRelated_Duration<27.4333344] yes=7,no=8,missing=7
-			7:[Administrative_Duration<4.16666698] yes=15,no=16,missing=15
-				15:leaf=-0.0709438697
-				16:leaf=0.0986795574
-			8:[ExitRates<0.0390054956] yes=17,no=18,missing=17
-				17:leaf=0.00298615126
-				18:leaf=-0.0557669066
+		3:[ExitRates<0.00286375638] yes=7,no=8,missing=7
+			7:[Informational_Duration<56.9500008] yes=15,no=16,missing=15
+				15:leaf=-0.137837797
+				16:leaf=0.0177906808
+			8:[ProductRelated_Duration<27.4333344] yes=17,no=18,missing=17
+				17:leaf=0.072986193
+				18:leaf=0.000201645729
 		4:[Administrative<11] yes=9,no=10,missing=9
 			9:[ProductRelated<20] yes=19,no=20,missing=19
-				19:leaf=0.0670716017
-				20:leaf=0.0263004396
+				19:leaf=0.0715252683
+				20:leaf=0.0287197269
 			10:[Administrative_Duration<545.662476] yes=21,no=22,missing=21
-				21:leaf=-0.117157482
-				22:leaf=0.0448781513
+				21:leaf=-0.13918145
+				22:leaf=0.0501452945
 	2:[Informational_Duration<144.25] yes=5,no=6,missing=5
 		5:[Browser<4] yes=11,no=12,missing=11
 			11:[PageValues<6.09555912] yes=23,no=24,missing=23
-				23:leaf=-0.0506475754
-				24:leaf=-0.00111318578
-			12:[ProductRelated_Duration<350.799988] yes=25,no=26,missing=25
-				25:leaf=0.0969349667
-				26:leaf=-0.0346722752
-		6:[ExitRates<0.0380666181] yes=13,no=14,missing=13
-			13:[PageValues<9.8384819] yes=27,no=28,missing=27
-				27:leaf=0.0988189206
-				28:leaf=-0.0569757111
-			14:[ExitRates<0.0501064658] yes=29,no=30,missing=29
-				29:leaf=-0.119845331
-				30:leaf=0.0351997763
-booster[35]:
-0:[VisitorType_Returning_Visitor<1] yes=1,no=2,missing=1
-	1:[ProductRelated_Duration<446.940491] yes=3,no=4,missing=3
-		3:[ProductRelated_Duration<27.4333344] yes=7,no=8,missing=7
-			7:[Administrative_Duration<19] yes=15,no=16,missing=15
-				15:leaf=-0.0120742163
-				16:leaf=0.0937497765
-			8:[ExitRates<0.0344444439] yes=17,no=18,missing=17
-				17:leaf=-0.000379603909
-				18:leaf=-0.110183276
-		4:[ExitRates<0.00345032848] yes=9,no=10,missing=9
-			9:[PageValues<19.9472294] yes=19,no=20,missing=19
-				19:leaf=-0.111634694
-				20:leaf=0.0781940818
-			10:[Weekend<1] yes=21,no=22,missing=21
-				21:leaf=0.0804056153
-				22:leaf=0.00996657368
-	2:[Month_Dec<1] yes=5,no=6,missing=5
-		5:[PageValues<3.5842104] yes=11,no=12,missing=11
-			11:[Month_May<1] yes=23,no=24,missing=23
-				23:leaf=-0.00416072411
-				24:leaf=-0.083656095
-			12:[PageValues<4.0041194] yes=25,no=26,missing=25
-				25:leaf=0.0963525996
-				26:leaf=0.0126117188
-		6:[Administrative_Duration<108.69223] yes=13,no=14,missing=13
-			13:[PageValues<18.9099579] yes=27,no=28,missing=27
-				27:leaf=-0.0802122876
-				28:leaf=0.0140529415
-			14:[Administrative_Duration<117.598679] yes=29,no=30,missing=29
-				29:leaf=0.144017354
-				30:leaf=-0.0180689041
-booster[36]:
+				23:leaf=-0.0538104698
+				24:leaf=-0.00409656391
+			12:[#how long visited<348.716675] yes=25,no=26,missing=25
+				25:leaf=0.119590506
+				26:leaf=-0.0386740863
+		6:[PageValues<9.8384819] yes=13,no=14,missing=13
+			13:[ExitRates<0.0380666181] yes=27,no=28,missing=27
+				27:leaf=0.105659783
+				28:leaf=-0.0330254249
+			14:leaf=-0.0739814639
+booster[33]:
 0:[ExitRates<0.0762896836] yes=1,no=2,missing=1
 	1:[ProductRelated_Duration<22.9166679] yes=3,no=4,missing=3
 		3:[Weekend<1] yes=7,no=8,missing=7
-			7:[VisitorType_Returning_Visitor<1] yes=13,no=14,missing=13
-				13:leaf=0.0802451
-				14:leaf=-0.0460781567
-			8:leaf=0.125763997
-		4:[PageValues<0.0525420457] yes=9,no=10,missing=9
-			9:[Month_Mar<1] yes=17,no=18,missing=17
-				17:leaf=-0.00440714834
-				18:leaf=-0.102725007
-			10:[Administrative_Duration<9.25] yes=19,no=20,missing=19
-				19:leaf=0.0440068059
-				20:leaf=0.00639189547
+			7:[VisitorType_New_Visitor<1] yes=13,no=14,missing=13
+				13:leaf=-0.0485066101
+				14:leaf=0.0964288116
+			8:leaf=0.145163953
+		4:[PageValues<28.0444527] yes=9,no=10,missing=9
+			9:[#how long visited<58.6749992] yes=17,no=18,missing=17
+				17:leaf=-0.127057418
+				18:leaf=-0.00208641239
+			10:[Administrative<2] yes=19,no=20,missing=19
+				19:leaf=0.064966023
+				20:leaf=0.0171060562
 	2:[BounceRates<0.0528571457] yes=5,no=6,missing=5
-		5:leaf=-0.11772348
+		5:leaf=-0.129689217
 		6:[Administrative<1] yes=11,no=12,missing=11
 			11:[Browser<4] yes=21,no=22,missing=21
-				21:leaf=-0.0812022835
-				22:leaf=0.0592931025
+				21:leaf=-0.0881858617
+				22:leaf=0.0800479054
 			12:[Month_Nov<1] yes=23,no=24,missing=23
-				23:leaf=-0.0316162817
-				24:leaf=0.177788809
+				23:leaf=-0.0450924933
+				24:leaf=0.22300975
+booster[34]:
+0:[ExitRates<0.0390090421] yes=1,no=2,missing=1
+	1:[VisitorType_Returning_Visitor<1] yes=3,no=4,missing=3
+		3:[#how long visited<884.216675] yes=7,no=8,missing=7
+			7:[Administrative<7] yes=15,no=16,missing=15
+				15:leaf=0.0196506511
+				16:leaf=-0.164843291
+			8:[#how long visited<920.08252] yes=17,no=18,missing=17
+				17:leaf=0.206830189
+				18:leaf=0.0488562733
+		4:[Month_Dec<1] yes=9,no=10,missing=9
+			9:[#pages visited<13] yes=19,no=20,missing=19
+				19:leaf=-0.0380572937
+				20:leaf=0.00950303767
+			10:[ExitRates<0.0106353723] yes=21,no=22,missing=21
+				21:leaf=0.0353490114
+				22:leaf=-0.0489737652
+	2:[TrafficType<16] yes=5,no=6,missing=5
+		5:[#how long visited<868.549988] yes=11,no=12,missing=11
+			11:[Administrative<1] yes=23,no=24,missing=23
+				23:leaf=-0.0425801165
+				24:leaf=0.028773265
+			12:[ProductRelated<63] yes=25,no=26,missing=25
+				25:leaf=-0.0882508978
+				26:leaf=0.00531412894
+		6:[Region<4] yes=13,no=14,missing=13
+			13:leaf=0.182157889
+			14:leaf=-0.0215933379
+booster[35]:
+0:[ExitRates<0.0772328526] yes=1,no=2,missing=1
+	1:[ProductRelated_Duration<22.9166679] yes=3,no=4,missing=3
+		3:[Weekend<1] yes=7,no=8,missing=7
+			7:[VisitorType_New_Visitor<1] yes=13,no=14,missing=13
+				13:leaf=-0.0437808111
+				14:leaf=0.0846463591
+			8:leaf=0.130780593
+		4:[PageValues<0.0525420457] yes=9,no=10,missing=9
+			9:[Month_Mar<1] yes=17,no=18,missing=17
+				17:leaf=-0.00488311425
+				18:leaf=-0.112116024
+			10:[Administrative_Duration<9.25] yes=19,no=20,missing=19
+				19:leaf=0.0481902882
+				20:leaf=0.00494219782
+	2:[BounceRates<0.0528571457] yes=5,no=6,missing=5
+		5:leaf=-0.1258955
+		6:[Administrative<1] yes=11,no=12,missing=11
+			11:[Browser<4] yes=21,no=22,missing=21
+				21:leaf=-0.087735109
+				22:leaf=0.0724677145
+			12:[Month_Nov<1] yes=23,no=24,missing=23
+				23:leaf=-0.0428773873
+				24:leaf=0.182918549
+booster[36]:
+0:[Month_Nov<1] yes=1,no=2,missing=1
+	1:[ProductRelated<33] yes=3,no=4,missing=3
+		3:[PageValues<2.53046656] yes=7,no=8,missing=7
+			7:[Administrative_Duration<4.16666698] yes=15,no=16,missing=15
+				15:leaf=-0.0643684417
+				16:leaf=0.0111945542
+			8:[#how long visited<2355.5625] yes=17,no=18,missing=17
+				17:leaf=0.0371411443
+				18:leaf=-0.0651071519
+		4:[Administrative_Duration<252.240952] yes=9,no=10,missing=9
+			9:[Administrative<12] yes=19,no=20,missing=19
+				19:leaf=-0.0332485437
+				20:leaf=-0.220902726
+			10:[BounceRates<0.00121245394] yes=21,no=22,missing=21
+				21:leaf=0.0625160858
+				22:leaf=-0.0239806771
+	2:[OperatingSystems<3] yes=5,no=6,missing=5
+		5:[TrafficType<8] yes=11,no=12,missing=11
+			11:[TrafficType<4] yes=23,no=24,missing=23
+				23:leaf=0.0161141679
+				24:leaf=-0.114489138
+			12:[#how long visited<272.5] yes=25,no=26,missing=25
+				25:leaf=-0.018291397
+				26:leaf=0.0699070767
+		6:[Region<4] yes=13,no=14,missing=13
+			13:[BounceRates<0.0374166667] yes=27,no=28,missing=27
+				27:leaf=-0.0159088317
+				28:leaf=0.115092836
+			14:[Administrative_Duration<34.4249992] yes=29,no=30,missing=29
+				29:leaf=-0.145628169
+				30:leaf=-0.022256963
 booster[37]:
 0:[BounceRates<0.0118058082] yes=1,no=2,missing=1
 	1:[TrafficType<5] yes=3,no=4,missing=3
 		3:[ProductRelated_Duration<4300.95898] yes=7,no=8,missing=7
 			7:[ProductRelated_Duration<3776.57959] yes=15,no=16,missing=15
-				15:leaf=-0.00189149438
-				16:leaf=-0.12236321
-			8:[Month_May<1] yes=17,no=18,missing=17
-				17:leaf=0.0383289419
-				18:leaf=-0.109512351
-		4:[Administrative_Duration<16.4000015] yes=9,no=10,missing=9
-			9:[ProductRelated_Duration<399.104858] yes=19,no=20,missing=19
-				19:leaf=-0.0771695897
-				20:leaf=0.0285906848
-			10:[Informational_Duration<105.900002] yes=21,no=22,missing=21
-				21:leaf=0.0485712178
-				22:leaf=-0.0140104061
-	2:[TrafficType<20] yes=5,no=6,missing=5
-		5:[TrafficType<12] yes=11,no=12,missing=11
-			11:[TrafficType<11] yes=23,no=24,missing=23
-				23:leaf=-0.0205865148
-				24:leaf=0.104685023
-			12:[PageValues<0.456371427] yes=25,no=26,missing=25
-				25:leaf=-0.0649440214
-				26:leaf=-0.219581276
-		6:[ProductRelated<7] yes=13,no=14,missing=13
-			13:leaf=0.151157081
-			14:leaf=0.0163794663
-booster[38]:
-0:[VisitorType_Returning_Visitor<1] yes=1,no=2,missing=1
-	1:[ProductRelated_Duration<446.940491] yes=3,no=4,missing=3
-		3:[ProductRelated<11] yes=7,no=8,missing=7
-			7:[Month_Dec<1] yes=15,no=16,missing=15
-				15:leaf=0.0391768925
-				16:leaf=-0.0433249213
-			8:[Browser<4] yes=17,no=18,missing=17
-				17:leaf=-0.0869901478
-				18:leaf=0.0301151425
-		4:[ExitRates<0.00345032848] yes=9,no=10,missing=9
-			9:[PageValues<19.9472294] yes=19,no=20,missing=19
-				19:leaf=-0.106166027
-				20:leaf=0.0757662654
-			10:[Month_Dec<1] yes=21,no=22,missing=21
-				21:leaf=0.0404536352
-				22:leaf=0.10721568
-	2:[Month_Dec<1] yes=5,no=6,missing=5
-		5:[Month_Feb<1] yes=11,no=12,missing=11
-			11:[Informational<1] yes=23,no=24,missing=23
-				23:leaf=-0.00621328549
-				24:leaf=0.0153988777
-			12:leaf=-0.0973898023
-		6:[Administrative_Duration<108.69223] yes=13,no=14,missing=13
-			13:[ExitRates<0.0147172827] yes=27,no=28,missing=27
-				27:leaf=0.00356851867
-				28:leaf=-0.08003553
-			14:[TrafficType<5] yes=29,no=30,missing=29
-				29:leaf=-0.0274756346
-				30:leaf=0.089051351
-booster[39]:
-0:[ExitRates<0.0772328526] yes=1,no=2,missing=1
-	1:[ProductRelated_Duration<22.9166679] yes=3,no=4,missing=3
-		3:[Weekend<1] yes=7,no=8,missing=7
-			7:[ProductRelated<2] yes=13,no=14,missing=13
-				13:leaf=0.0965929851
-				14:leaf=-0.0147697451
-			8:leaf=0.114033692
-		4:[PageValues<28.0444527] yes=9,no=10,missing=9
-			9:[Month_Nov<1] yes=17,no=18,missing=17
-				17:leaf=-0.0116767837
-				18:leaf=0.00861190166
-			10:[Administrative<2] yes=19,no=20,missing=19
-				19:leaf=0.0575774424
-				20:leaf=0.0146727664
-	2:[BounceRates<0.0528571457] yes=5,no=6,missing=5
-		5:leaf=-0.1141923
-		6:[Administrative<1] yes=11,no=12,missing=11
-			11:[Browser<4] yes=21,no=22,missing=21
-				21:leaf=-0.0818936452
-				22:leaf=0.0526416674
-			12:leaf=0.0774445459
-booster[40]:
-0:[ExitRates<0.0399624817] yes=1,no=2,missing=1
-	1:[VisitorType_Returning_Visitor<1] yes=3,no=4,missing=3
-		3:[Administrative_Duration<51.4500008] yes=7,no=8,missing=7
-			7:[ProductRelated_Duration<782.854248] yes=15,no=16,missing=15
-				15:leaf=0.0293139722
-				16:leaf=0.0913434252
-			8:[Administrative_Duration<60.0999985] yes=17,no=18,missing=17
-				17:leaf=-0.103642724
-				18:leaf=0.00965589657
-		4:[Month_Dec<1] yes=9,no=10,missing=9
-			9:[Informational_Duration<180.375] yes=19,no=20,missing=19
-				19:leaf=0.00114136795
-				20:leaf=0.0335854292
-			10:[ExitRates<0.0193592161] yes=21,no=22,missing=21
-				21:leaf=-0.00658454699
-				22:leaf=-0.0646847859
-	2:[ExitRates<0.0510763898] yes=5,no=6,missing=5
-		5:[Administrative_Duration<66.9499969] yes=11,no=12,missing=11
-			11:[Weekend<1] yes=23,no=24,missing=23
-				23:leaf=-0.0881930292
-				24:leaf=-0.0100929122
-			12:[Informational_Duration<49.2000008] yes=25,no=26,missing=25
-				25:leaf=0.0209152494
-				26:leaf=-0.0945974216
-		6:[ExitRates<0.0517357811] yes=13,no=14,missing=13
-			13:leaf=0.183052495
-			14:[ProductRelated<26] yes=27,no=28,missing=27
-				27:leaf=0.00273130485
-				28:leaf=-0.104354404
-booster[41]:
-0:[PageValues<0.0525420457] yes=1,no=2,missing=1
-	1:[Month_Mar<1] yes=3,no=4,missing=3
-		3:[Month_May<1] yes=7,no=8,missing=7
-			7:[ExitRates<0.00401058234] yes=13,no=14,missing=13
-				13:leaf=-0.0959180146
-				14:leaf=0.00290128612
-			8:leaf=-0.0997945145
-		4:leaf=-0.102933683
-	2:[ProductRelated_Duration<1067.18091] yes=5,no=6,missing=5
-		5:[Administrative_Duration<19.9166679] yes=9,no=10,missing=9
-			9:[ExitRates<0.0307070706] yes=15,no=16,missing=15
-				15:leaf=0.0739775226
-				16:leaf=0.0101636965
-			10:[Administrative_Duration<36.7000008] yes=17,no=18,missing=17
-				17:leaf=-0.0509568639
-				18:leaf=0.0271681342
-		6:[Administrative<17] yes=11,no=12,missing=11
-			11:[ProductRelated_Duration<1877.26465] yes=19,no=20,missing=19
-				19:leaf=-0.0172141809
-				20:leaf=0.0154571263
-			12:leaf=-0.137592077
-booster[42]:
-0:[ExitRates<0.0772328526] yes=1,no=2,missing=1
-	1:[ProductRelated<2] yes=3,no=4,missing=3
-		3:leaf=0.0884919092
-		4:[PageValues<28.0444527] yes=9,no=10,missing=9
-			9:[Informational<1] yes=15,no=16,missing=15
-				15:leaf=-0.00869711488
-				16:leaf=0.0108553385
-			10:[ProductRelated<22] yes=17,no=18,missing=17
-				17:leaf=0.0518765822
-				18:leaf=0.00971799158
-	2:[BounceRates<0.0528571457] yes=5,no=6,missing=5
-		5:leaf=-0.11276906
-		6:[Administrative<1] yes=11,no=12,missing=11
-			11:[Browser<4] yes=19,no=20,missing=19
-				19:leaf=-0.0785877332
-				20:leaf=0.047190275
-			12:leaf=0.0701159388
-booster[43]:
-0:[BounceRates<0.0118058082] yes=1,no=2,missing=1
-	1:[TrafficType<5] yes=3,no=4,missing=3
-		3:[Administrative_Duration<729.30835] yes=7,no=8,missing=7
-			7:[Month_Feb<1] yes=15,no=16,missing=15
-				15:leaf=0.00174462795
-				16:leaf=-0.105900861
-			8:[ProductRelated_Duration<1234.69019] yes=17,no=18,missing=17
-				17:leaf=0.030870175
-				18:leaf=-0.124682926
+				15:leaf=-0.00262059504
+				16:leaf=-0.141469687
+			8:[Informational_Duration<37.6666641] yes=17,no=18,missing=17
+				17:leaf=0.0654282123
+				18:leaf=-0.0114206411
 		4:[Administrative_Duration<36.75] yes=9,no=10,missing=9
-			9:[Browser<2] yes=19,no=20,missing=19
-				19:leaf=0.0682068914
-				20:leaf=-0.0185556374
+			9:[#pages visited<29] yes=19,no=20,missing=19
+				19:leaf=-0.0360770859
+				20:leaf=0.0480419099
 			10:[Administrative_Duration<60.75] yes=21,no=22,missing=21
-				21:leaf=0.0852514133
-				22:leaf=0.0261012521
-	2:[TrafficType<20] yes=5,no=6,missing=5
-		5:[TrafficType<12] yes=11,no=12,missing=11
-			11:[TrafficType<11] yes=23,no=24,missing=23
-				23:leaf=-0.0167126153
-				24:leaf=0.0941368565
-			12:[PageValues<0.456371427] yes=25,no=26,missing=25
-				25:leaf=-0.0577843077
-				26:leaf=-0.188668996
-		6:[ProductRelated<6] yes=13,no=14,missing=13
-			13:leaf=0.146564677
-			14:leaf=0.0106388424
-booster[44]:
-0:[Month_Nov<1] yes=1,no=2,missing=1
-	1:[ProductRelated<33] yes=3,no=4,missing=3
-		3:[PageValues<2.53046656] yes=7,no=8,missing=7
-			7:[Administrative_Duration<4.16666698] yes=15,no=16,missing=15
-				15:leaf=-0.056104552
-				16:leaf=0.010854736
-			8:[Informational_Duration<89.1666718] yes=17,no=18,missing=17
-				17:leaf=0.0366406329
-				18:leaf=-0.0273365118
-		4:[Administrative_Duration<252.240952] yes=9,no=10,missing=9
-			9:[Administrative<12] yes=19,no=20,missing=19
-				19:leaf=-0.0309485532
-				20:leaf=-0.195384085
-			10:[BounceRates<0.00121245394] yes=21,no=22,missing=21
-				21:leaf=0.0596114397
-				22:leaf=-0.0163845886
-	2:[ProductRelated<73] yes=5,no=6,missing=5
-		5:[TrafficType<12] yes=11,no=12,missing=11
-			11:[TrafficType<8] yes=23,no=24,missing=23
-				23:leaf=-0.00701942248
-				24:leaf=0.0468473993
-			12:[Administrative<5] yes=25,no=26,missing=25
-				25:leaf=-0.103331737
-				26:leaf=0.0491472073
-		6:[ExitRates<0.00970313139] yes=13,no=14,missing=13
-			13:[ExitRates<0.00788498111] yes=27,no=28,missing=27
-				27:leaf=0.0171789434
-				28:leaf=-0.168333784
-			14:[Informational_Duration<32.875] yes=29,no=30,missing=29
-				29:leaf=0.0589299276
-				30:leaf=0.012687345
-booster[45]:
-0:[PageValues<0.0525420457] yes=1,no=2,missing=1
-	1:[Month_Mar<1] yes=3,no=4,missing=3
-		3:[Month_May<1] yes=7,no=8,missing=7
-			7:[ExitRates<0.00304215192] yes=13,no=14,missing=13
-				13:leaf=-0.120582998
-				14:leaf=0.0024011354
-			8:leaf=-0.0992167965
-		4:leaf=-0.102304459
-	2:[Administrative_Duration<9.25] yes=5,no=6,missing=5
-		5:[ExitRates<0.0143374745] yes=9,no=10,missing=9
-			9:leaf=0.0705746636
-			10:[SpecialDay<0.100000001] yes=17,no=18,missing=17
-				17:leaf=0.0138546946
-				18:leaf=0.0977632329
-		6:[SpecialDay<0.700000048] yes=11,no=12,missing=11
-			11:[Administrative<12] yes=19,no=20,missing=19
-				19:leaf=0.0085927723
-				20:leaf=-0.0319866985
-			12:leaf=-0.102697991
-booster[46]:
-0:[VisitorType_Returning_Visitor<1] yes=1,no=2,missing=1
-	1:[Administrative<7] yes=3,no=4,missing=3
-		3:[ExitRates<0.00296312571] yes=7,no=8,missing=7
-			7:leaf=-0.063854821
-			8:[ProductRelated_Duration<446.940491] yes=17,no=18,missing=17
-				17:leaf=0.00937704183
-				18:leaf=0.0537864752
-		4:[ProductRelated_Duration<742.476196] yes=9,no=10,missing=9
-			9:leaf=-0.140536174
-			10:leaf=0.0197197311
-	2:[Month_Dec<1] yes=5,no=6,missing=5
-		5:[TrafficType<16] yes=11,no=12,missing=11
-			11:[TrafficType<12] yes=21,no=22,missing=21
-				21:leaf=0.00196734932
-				22:leaf=-0.0497650467
-			12:[ExitRates<0.0323666409] yes=23,no=24,missing=23
-				23:leaf=-0.00863057468
-				24:leaf=0.156368166
-		6:[Administrative_Duration<108.69223] yes=13,no=14,missing=13
-			13:[ExitRates<0.0147172827] yes=25,no=26,missing=25
-				25:leaf=0.00526119536
-				26:leaf=-0.0719560683
-			14:[Administrative_Duration<117.598679] yes=27,no=28,missing=27
-				27:leaf=0.12965177
-				28:leaf=-0.0146347228
-booster[47]:
-0:[Month_Feb<1] yes=1,no=2,missing=1
-	1:[ExitRates<0.0772328526] yes=3,no=4,missing=3
-		3:[ProductRelated_Duration<22.9166679] yes=7,no=8,missing=7
-			7:[Weekend<1] yes=11,no=12,missing=11
-				11:leaf=0.0276876036
-				12:leaf=0.104089521
-			8:[PageValues<28.0444527] yes=13,no=14,missing=13
-				13:leaf=-0.00165450107
-				14:leaf=0.0233732052
-		4:[BounceRates<0.0528571457] yes=9,no=10,missing=9
-			9:leaf=-0.111900799
-			10:[ExitRates<0.13126567] yes=15,no=16,missing=15
-				15:leaf=0.0465816334
-				16:leaf=-0.0539161079
-	2:leaf=-0.0866249129
-booster[48]:
-0:[ProductRelated_Duration<4300.95898] yes=1,no=2,missing=1
-	1:[TrafficType<4] yes=3,no=4,missing=3
-		3:[ExitRates<0.117708333] yes=7,no=8,missing=7
-			7:[ProductRelated_Duration<3869.17432] yes=15,no=16,missing=15
-				15:leaf=-0.00508113066
-				16:leaf=-0.0953166112
-			8:leaf=-0.104734696
-		4:[Month_Jul<1] yes=9,no=10,missing=9
-			9:[Month_Aug<1] yes=17,no=18,missing=17
-				17:leaf=0.00282023824
-				18:leaf=0.0685540065
-			10:[Informational<1] yes=19,no=20,missing=19
-				19:leaf=-0.00454459293
-				20:leaf=0.17182079
-	2:[Informational_Duration<46.75] yes=5,no=6,missing=5
-		5:[ExitRates<0.0310162585] yes=11,no=12,missing=11
-			11:[ExitRates<0.0276790168] yes=21,no=22,missing=21
-				21:leaf=0.041985929
-				22:leaf=0.119148873
-			12:leaf=-0.0411524512
-		6:[PageValues<1.07395709] yes=13,no=14,missing=13
-			13:[BounceRates<0.00161686656] yes=23,no=24,missing=23
-				23:leaf=0.0333377384
-				24:leaf=-0.124496952
-			14:[Informational_Duration<338.25] yes=25,no=26,missing=25
-				25:leaf=-0.01472688
-				26:leaf=0.0669541582
-booster[49]:
+				21:leaf=0.0908415243
+				22:leaf=0.0314438269
+	2:[Browser<4] yes=5,no=6,missing=5
+		5:[Month_Jul<1] yes=11,no=12,missing=11
+			11:[PageValues<5.99681187] yes=23,no=24,missing=23
+				23:leaf=-0.0462625735
+				24:leaf=-0.000147296159
+			12:[ExitRates<0.0430940539] yes=25,no=26,missing=25
+				25:leaf=0.107895017
+				26:leaf=-0.0927763432
+		6:[#how long visited<348.716675] yes=13,no=14,missing=13
+			13:[ProductRelated_Duration<261.625] yes=27,no=28,missing=27
+				27:leaf=0.0257389117
+				28:leaf=0.250243247
+			14:[ExitRates<0.0509035736] yes=29,no=30,missing=29
+				29:leaf=-0.0705932677
+				30:leaf=0.0498766452
+booster[38]:
+0:[Region<3] yes=1,no=2,missing=1
+	1:[ProductRelated_Duration<2399.40234] yes=3,no=4,missing=3
+		3:[#how long visited<2369.13452] yes=7,no=8,missing=7
+			7:[#pages visited<84] yes=15,no=16,missing=15
+				15:leaf=0.00641061366
+				16:leaf=-0.159430072
+			8:[PageValues<5.99567127] yes=17,no=18,missing=17
+				17:leaf=-0.195906952
+				18:leaf=-0.0279067978
+		4:[#pages visited<56] yes=9,no=10,missing=9
+			9:[#pages visited<35] yes=19,no=20,missing=19
+				19:leaf=0.0755004436
+				20:leaf=-0.105335616
+			10:[#how long visited<2760.8125] yes=21,no=22,missing=21
+				21:leaf=0.128325209
+				22:leaf=0.0357552469
+	2:[VisitorType_New_Visitor<1] yes=5,no=6,missing=5
+		5:[PageValues<3.35751295] yes=11,no=12,missing=11
+			11:[BounceRates<0.0109839235] yes=23,no=24,missing=23
+				23:leaf=-0.0140259098
+				24:leaf=-0.0696251988
+			12:[Month_Sep<1] yes=25,no=26,missing=25
+				25:leaf=0.00927742478
+				26:leaf=-0.10536468
+		6:[ProductRelated_Duration<446.715454] yes=13,no=14,missing=13
+			13:[#how long visited<256.775024] yes=27,no=28,missing=27
+				27:leaf=0.0266234018
+				28:leaf=-0.0771461278
+			14:[Month_Dec<1] yes=29,no=30,missing=29
+				29:leaf=0.0222409926
+				30:leaf=0.177670106
+booster[39]:
 0:[Month_Nov<1] yes=1,no=2,missing=1
 	1:[ProductRelated<84] yes=3,no=4,missing=3
 		3:[PageValues<6.10276127] yes=7,no=8,missing=7
 			7:[Informational<1] yes=15,no=16,missing=15
-				15:leaf=-0.026722718
-				16:leaf=0.0249971133
-			8:[Informational_Duration<416] yes=17,no=18,missing=17
-				17:leaf=0.0166579187
-				18:leaf=-0.0656456575
-		4:[ProductRelated_Duration<2915.09814] yes=9,no=10,missing=9
-			9:leaf=-0.132239163
-			10:[PageValues<5.75729799] yes=21,no=22,missing=21
-				21:leaf=0.0051484718
-				22:leaf=-0.0908473805
-	2:[ProductRelated<34] yes=5,no=6,missing=5
-		5:[Informational_Duration<133.75] yes=11,no=12,missing=11
-			11:[BounceRates<0.027922079] yes=23,no=24,missing=23
-				23:leaf=-0.0195744261
-				24:leaf=0.0373897366
-			12:[BounceRates<0.00857843086] yes=25,no=26,missing=25
-				25:leaf=0.113152444
-				26:leaf=-0.0194458403
-		6:[ExitRates<0.0405536518] yes=13,no=14,missing=13
-			13:[Administrative_Duration<3.25] yes=27,no=28,missing=27
-				27:leaf=0.0444446318
-				28:leaf=0.0157569777
-			14:leaf=-0.123180449
+				15:leaf=-0.0338136889
+				16:leaf=0.0325382315
+			8:[ExitRates<0.00770396274] yes=17,no=18,missing=17
+				17:leaf=0.0640882477
+				18:leaf=0.00788207352
+		4:[#how long visited<3913.85303] yes=9,no=10,missing=9
+			9:[Informational_Duration<11.75] yes=19,no=20,missing=19
+				19:leaf=-0.176595956
+				20:leaf=-0.0853555799
+			10:[ExitRates<0.0107347779] yes=21,no=22,missing=21
+				21:leaf=0.076282084
+				22:leaf=-0.0415588617
+	2:[OperatingSystems<3] yes=5,no=6,missing=5
+		5:[#how long visited<20.125] yes=11,no=12,missing=11
+			11:leaf=-0.117425077
+			12:[TrafficType<8] yes=23,no=24,missing=23
+				23:leaf=0.0120920613
+				24:leaf=0.0532295145
+		6:[Region<4] yes=13,no=14,missing=13
+			13:[BounceRates<0.0374166667] yes=25,no=26,missing=25
+				25:leaf=-0.0144446725
+				26:leaf=0.103593841
+			14:[Administrative_Duration<34.4249992] yes=27,no=28,missing=27
+				27:leaf=-0.135023996
+				28:leaf=-0.0195053592
+booster[40]:
+0:[Month_Feb<1] yes=1,no=2,missing=1
+	1:[PageValues<29.8933411] yes=3,no=4,missing=3
+		3:[Month_May<1] yes=7,no=8,missing=7
+			7:[Region<3] yes=11,no=12,missing=11
+				11:leaf=0.0127898315
+				12:leaf=-0.00989105273
+			8:[PageValues<5.10791492] yes=13,no=14,missing=13
+				13:leaf=-0.0927838758
+				14:leaf=0.0028418703
+		4:[Administrative<2] yes=9,no=10,missing=9
+			9:[ExitRates<0.0287593976] yes=15,no=16,missing=15
+				15:leaf=0.0781576335
+				16:leaf=0.000519366236
+			10:[ExitRates<0.030656565] yes=17,no=18,missing=17
+				17:leaf=0.0177067779
+				18:leaf=-0.0782136247
+	2:leaf=-0.103942595
+booster[41]:
+0:[VisitorType_New_Visitor<1] yes=1,no=2,missing=1
+	1:[Month_Dec<1] yes=3,no=4,missing=3
+		3:[#pages visited<13] yes=7,no=8,missing=7
+			7:[#pages visited<9] yes=15,no=16,missing=15
+				15:leaf=-0.00407921663
+				16:leaf=-0.0655314177
+			8:[ProductRelated<15] yes=17,no=18,missing=17
+				17:leaf=0.0452264026
+				18:leaf=0.00146847242
+		4:[Administrative_Duration<60.125] yes=9,no=10,missing=9
+			9:[ExitRates<0.0147172827] yes=19,no=20,missing=19
+				19:leaf=0.0198276788
+				20:leaf=-0.0890950859
+			10:[TrafficType<5] yes=21,no=22,missing=21
+				21:leaf=-0.0229661744
+				22:leaf=0.0699219927
+	2:[Administrative<7] yes=5,no=6,missing=5
+		5:[ExitRates<0.00336158182] yes=11,no=12,missing=11
+			11:[PageValues<8.68126202] yes=23,no=24,missing=23
+				23:leaf=-0.129732966
+				24:leaf=0.0360035859
+			12:[ProductRelated_Duration<446.940491] yes=25,no=26,missing=25
+				25:leaf=0.00954494812
+				26:leaf=0.0627840012
+		6:[#how long visited<882.133301] yes=13,no=14,missing=13
+			13:leaf=-0.160215273
+			14:[TrafficType<3] yes=27,no=28,missing=27
+				27:leaf=-0.0400728509
+				28:leaf=0.0747469664
+booster[42]:
+0:[Month_Feb<1] yes=1,no=2,missing=1
+	1:[ProductRelated_Duration<4300.95898] yes=3,no=4,missing=3
+		3:[ProductRelated_Duration<3880.81274] yes=5,no=6,missing=5
+			5:[Informational_Duration<181.475006] yes=9,no=10,missing=9
+				9:leaf=-0.00365036284
+				10:leaf=0.0332114436
+			6:[PageValues<11.5977459] yes=11,no=12,missing=11
+				11:leaf=-0.155755192
+				12:leaf=0.066522032
+		4:[Informational_Duration<46.75] yes=7,no=8,missing=7
+			7:[#pages visited<79] yes=13,no=14,missing=13
+				13:leaf=-0.0519837178
+				14:leaf=0.0581410006
+			8:[PageValues<1.07395709] yes=15,no=16,missing=15
+				15:leaf=-0.0999983996
+				16:leaf=0.0283212978
+	2:leaf=-0.0985212103
+booster[43]:
+0:[VisitorType_New_Visitor<1] yes=1,no=2,missing=1
+	1:[Region<3] yes=3,no=4,missing=3
+		3:[#pages visited<77] yes=7,no=8,missing=7
+			7:[TrafficType<16] yes=15,no=16,missing=15
+				15:leaf=-0.00779099111
+				16:leaf=0.113995194
+			8:[#pages visited<84] yes=17,no=18,missing=17
+				17:leaf=0.123431787
+				18:leaf=0.021382777
+		4:[Administrative_Duration<582.266663] yes=9,no=10,missing=9
+			9:[Administrative_Duration<246.841675] yes=19,no=20,missing=19
+				19:leaf=-0.017251607
+				20:leaf=0.0338629968
+			10:[Administrative<9] yes=21,no=22,missing=21
+				21:leaf=-0.200182945
+				22:leaf=-0.0490256697
+	2:[Administrative_Duration<51.4500008] yes=5,no=6,missing=5
+		5:[ProductRelated_Duration<649.375] yes=11,no=12,missing=11
+			11:[OperatingSystems<3] yes=23,no=24,missing=23
+				23:leaf=0.0360295363
+				24:leaf=-0.0993578807
+			12:[Informational_Duration<5] yes=25,no=26,missing=25
+				25:leaf=0.0504341312
+				26:leaf=0.171843871
+		6:[Region<7] yes=13,no=14,missing=13
+			13:[ProductRelated<3] yes=27,no=28,missing=27
+				27:leaf=0.0858602673
+				28:leaf=-0.0385547914
+			14:[Weekend<1] yes=29,no=30,missing=29
+				29:leaf=0.105641536
+				30:leaf=-0.0902565196
+booster[44]:
+0:[Month_Feb<1] yes=1,no=2,missing=1
+	1:[PageValues<29.8933411] yes=3,no=4,missing=3
+		3:[ExitRates<0.00286375638] yes=7,no=8,missing=7
+			7:[PageValues<0.616029143] yes=11,no=12,missing=11
+				11:leaf=-0.130675942
+				12:leaf=0.0303526781
+			8:[Month_May<1] yes=13,no=14,missing=13
+				13:leaf=0.00268265302
+				14:leaf=-0.0261978488
+		4:[Administrative<2] yes=9,no=10,missing=9
+			9:[ExitRates<0.0287593976] yes=15,no=16,missing=15
+				15:leaf=0.0747375116
+				16:leaf=0.00309035415
+			10:[PageValues<32.3695526] yes=17,no=18,missing=17
+				17:leaf=0.0740063339
+				18:leaf=0.000151917833
+	2:leaf=-0.0927629024
+booster[45]:
+0:[ExitRates<0.0772328526] yes=1,no=2,missing=1
+	1:[ProductRelated<2] yes=3,no=4,missing=3
+		3:leaf=0.103078723
+		4:[Month_Jul<1] yes=9,no=10,missing=9
+			9:[PageValues<1.44831562] yes=15,no=16,missing=15
+				15:leaf=-0.00967962202
+				16:leaf=0.0095704617
+			10:[Informational<1] yes=17,no=18,missing=17
+				17:leaf=-0.0129651371
+				18:leaf=0.096189104
+	2:[BounceRates<0.0528571457] yes=5,no=6,missing=5
+		5:leaf=-0.123423941
+		6:[Administrative<1] yes=11,no=12,missing=11
+			11:[Browser<4] yes=19,no=20,missing=19
+				19:leaf=-0.078471452
+				20:leaf=0.0719780475
+			12:leaf=0.0803063437
+booster[46]:
+0:[Month_Nov<1] yes=1,no=2,missing=1
+	1:[ProductRelated<33] yes=3,no=4,missing=3
+		3:[ExitRates<0.0935416669] yes=7,no=8,missing=7
+			7:[ProductRelated_Duration<2] yes=15,no=16,missing=15
+				15:leaf=0.133767471
+				16:leaf=0.00697781099
+			8:leaf=-0.0862023234
+		4:[PageValues<0.0683279783] yes=9,no=10,missing=9
+			9:[Administrative<10] yes=19,no=20,missing=19
+				19:leaf=-0.0712859482
+				20:leaf=0.0664520413
+			10:[Administrative_Duration<1.5] yes=21,no=22,missing=21
+				21:leaf=0.0475759469
+				22:leaf=-0.0241555832
+	2:[TrafficType<12] yes=5,no=6,missing=5
+		5:[TrafficType<8] yes=11,no=12,missing=11
+			11:[TrafficType<4] yes=23,no=24,missing=23
+				23:leaf=0.00802365597
+				24:leaf=-0.10021054
+			12:[BounceRates<0.02718894] yes=25,no=26,missing=25
+				25:leaf=0.0384730399
+				26:leaf=0.139861286
+		6:[#how long visited<2185.73657] yes=13,no=14,missing=13
+			13:[PageValues<0.766769648] yes=27,no=28,missing=27
+				27:leaf=-0.137638152
+				28:leaf=-0.0153111415
+			14:[ExitRates<0.0278016347] yes=29,no=30,missing=29
+				29:leaf=-0.0332953148
+				30:leaf=0.120215513
+booster[47]:
+0:[BounceRates<0.0125125051] yes=1,no=2,missing=1
+	1:[ProductRelated_Duration<27.4333344] yes=3,no=4,missing=3
+		3:[Administrative_Duration<4.16666698] yes=7,no=8,missing=7
+			7:leaf=-0.061224483
+			8:leaf=0.0760735869
+		4:[#how long visited<71.2916718] yes=9,no=10,missing=9
+			9:leaf=-0.11491026
+			10:[#how long visited<78.8333282] yes=15,no=16,missing=15
+				15:leaf=0.133398086
+				16:leaf=0.00279080984
+	2:[TrafficType<20] yes=5,no=6,missing=5
+		5:[TrafficType<12] yes=11,no=12,missing=11
+			11:[TrafficType<11] yes=17,no=18,missing=17
+				17:leaf=-0.01598702
+				18:leaf=0.114529423
+			12:[PageValues<0.456371427] yes=19,no=20,missing=19
+				19:leaf=-0.0495674573
+				20:leaf=-0.223792046
+		6:leaf=0.0845009908
+booster[48]:
+0:[Month_Nov<1] yes=1,no=2,missing=1
+	1:[ProductRelated<84] yes=3,no=4,missing=3
+		3:[Informational_Duration<701.849976] yes=7,no=8,missing=7
+			7:[Informational<1] yes=15,no=16,missing=15
+				15:leaf=-0.0097016925
+				16:leaf=0.0213196501
+			8:leaf=-0.134464696
+		4:[#how long visited<3913.85303] yes=9,no=10,missing=9
+			9:[#how long visited<3331.92383] yes=17,no=18,missing=17
+				17:leaf=-0.0954532772
+				18:leaf=-0.212115049
+			10:[ProductRelated_Duration<9442.67383] yes=19,no=20,missing=19
+				19:leaf=0.00912974682
+				20:leaf=-0.155709177
+	2:[Region<4] yes=5,no=6,missing=5
+		5:[#pages visited<79] yes=11,no=12,missing=11
+			11:[Administrative<9] yes=21,no=22,missing=21
+				21:leaf=0.00999374967
+				22:leaf=-0.102054201
+			12:[ProductRelated_Duration<2153.37549] yes=23,no=24,missing=23
+				23:leaf=-0.0822193474
+				24:leaf=0.0487859361
+		6:[ProductRelated_Duration<4704.39453] yes=13,no=14,missing=13
+			13:[#how long visited<3715.78711] yes=25,no=26,missing=25
+				25:leaf=-0.0139648793
+				26:leaf=-0.272060126
+			14:[Informational_Duration<33.25] yes=27,no=28,missing=27
+				27:leaf=0.112579197
+				28:leaf=0.0177354291
+booster[49]:
+0:[Month_Feb<1] yes=1,no=2,missing=1
+	1:[PageValues<27.059166] yes=3,no=4,missing=3
+		3:[ExitRates<0.00179259549] yes=5,no=6,missing=5
+			5:leaf=-0.110043496
+			6:[Month_May<1] yes=9,no=10,missing=9
+				9:leaf=0.00172758382
+				10:leaf=-0.0227894075
+		4:[#pages visited<27] yes=7,no=8,missing=7
+			7:leaf=0.0499393381
+			8:[ExitRates<0.0267574601] yes=13,no=14,missing=13
+				13:leaf=0.0133707142
+				14:leaf=-0.107281394
+	2:leaf=-0.0860428661
