@@ -1,9 +1,9 @@
 # E-Commerce Business
 1. Information given:
- info about Visitors
- info about Pages visited
- info about Time visited
- info about systems they used for that
+  Visitors
+  Pages visited
+ Time visited
+  systems they used for that
  
  Its a classification problem Paid/NotPaid
  
@@ -11,7 +11,7 @@
  PageValues is the most important variable the higher value more likely they purchased
  ExitRate/Bouncerate are negatively related, higher rate less likely they purchase
  
- three supporting docs uploaded
+ Three supporting docs uploaded
  1. data wxploration : its alway valuable to know data well before building any model
  2. Modeling: feeding data and predicting class Purchased/Not Purchased
  3. Underlying trees used in the model 
